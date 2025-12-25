@@ -1,0 +1,66 @@
+{
+    "hero": {
+        "badge": "Trading Strategies",
+        "title": "Proven Strategies, Powered by AI",
+        "subtitle": "Explore our advanced trading strategies backed by mathematical precision and artificial intelligence"
+    },
+    "sections": {
+        "how_it_works": "How It Works",
+        "example": "Example",
+        "session": "Session",
+        "setup": "Setup"
+    },
+    "cta": {
+        "title": "Ready to Start Trading Smarter?",
+        "subtitle": "Combine these powerful strategies with our AI engine for maximum profitability",
+        "button": "Start Free Trial"
+    },
+    "items": {
+        "dca": {
+            "title": "Dollar Cost Averaging (DCA)",
+            "description": "Smart capital distribution across multiple price levels",
+            "howItWorks": "DCA strategy automatically places buy orders at predetermined price levels below the current market price. This approach reduces the average entry price and minimizes timing risk."
+        },
+        "grid": {
+            "title": "Grid Trading",
+            "description": "Profit from market volatility with automated buy/sell grids",
+            "howItWorks": "Grid trading places multiple buy and sell orders at regular intervals above and below the current price, creating a 'grid' of orders. Profits are generated from each price fluctuation within the range."
+        },
+        "scalping": {
+            "title": "Scalping",
+            "description": "High-frequency trading for quick profits from small price movements",
+            "howItWorks": "Scalping executes multiple trades throughout the day, targeting small price movements. The strategy uses tight stop-losses and quick profit targets to accumulate gains."
+        },
+        "trend": {
+            "title": "Trend Following",
+            "description": "Ride long-term market trends with momentum indicators",
+            "howItWorks": "Trend following identifies and follows sustained market movements using technical indicators like EMA, MACD, and RSI. Positions are held longer to capture significant price movements."
+        },
+        "ai_ensemble": {
+            "title": "AI Ensemble Strategy",
+            "description": "Advanced machine learning combining multiple AI models",
+            "howItWorks": "Our proprietary AI ensemble combines LSTM neural networks, transformer models, and traditional technical analysis to generate high-probability trade signals with real-time market adaptation."
+        }
+    },
+    "management": {
+        "title": "Trading Strategies",
+        "subtitle": "Create and manage trading strategies with a secure versioning system",
+        "create_new": "Create New Strategy",
+        "tabs": {
+            "instances": "My Strategies ({{count}})",
+            "templates": "Available Templates"
+        },
+        "no_instances": "No strategies yet. Go to \"Available Templates\" tab to create a new one.",
+        "no_templates": "No strategy templates available currently.",
+        "categories": {
+            "dca": "DCA Strategies",
+            "grid": "Grid Trading Strategies",
+            "momentum": "Momentum Strategies"
+        },
+        "confirm": {
+            "delete": "Are you sure you want to delete \"{{name}}\"?",
+            "clone_prompt": "New strategy name:",
+            "clone_copy": "copy"
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "history": {
+        "title": "Backtest History",
+        "subtitle": "View and manage your backtest runs",
+        "new_backtest": "New Backtest",
+        "loading": "Loading backtest history...",
+        "error": "Failed to load backtest history",
+        "no_backtests": "No backtests found",
+        "create_first": "Create Your First Backtest",
+        "all_backtests": "All Backtests ({{count}})",
+        "table": {
+            "date": "Date",
+            "pair": "Pair",
+            "timeframe": "Timeframe",
+            "strategy": "Strategy",
+            "period": "Period",
+            "return": "Return %",
+            "winrate": "Winrate",
+            "status": "Status",
+            "actions": "Actions",
+            "days": "{{count}} days",
+            "view": "View"
+        },
+        "status": {
+            "completed": "Completed",
+            "running": "Running",
+            "failed": "Failed",
+            "pending": "Pending"
+        }
+    }
+}

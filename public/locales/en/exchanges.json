@@ -1,0 +1,180 @@
+{
+    "hero": {
+        "badge": "Supported Exchanges",
+        "title": "Trade on Leading Exchanges",
+        "subtitle": "Connect to the world's most trusted cryptocurrency exchanges with seamless integration"
+    },
+    "sections": {
+        "visit_website": "Visit Website",
+        "key_features": "Key Features",
+        "requirements": "Requirements",
+        "comparison_title": "Feature Comparison",
+        "comparison_subtitle": "Compare trading features across exchanges",
+        "integration_title": "Integration Guide",
+        "integration_subtitle": "Step-by-step guide to connect your exchange",
+        "security_title": "Security Best Practices",
+        "security_subtitle": "Essential security measures for API trading",
+        "faq_title": "Frequently Asked Questions",
+        "cta_title": "Ready to Connect Your Exchange?",
+        "cta_subtitle": "Start trading with AI-powered automation on your favorite exchange",
+        "cta_button": "Get Started Now"
+    },
+    "comparison": {
+        "feature": "Feature",
+        "spot": "Spot Trading",
+        "futures": "Futures Trading",
+        "margin": "Margin Trading",
+        "options": "Options Trading",
+        "staking": "Staking",
+        "savings": "Savings/Lending"
+    },
+    "security": {
+        "do": "✓ DO",
+        "dont": "✗ DON'T",
+        "do_list": {
+            "2fa": "Enable 2FA on exchange account",
+            "whitelist": "Use IP whitelisting if available",
+            "rotate": "Regularly rotate API keys",
+            "monitor": "Monitor API activity logs",
+            "testnet": "Start with testnet/demo accounts"
+        },
+        "dont_list": {
+            "withdraw": "Never enable withdrawal permissions",
+            "share": "Don't share API keys publicly",
+            "reuse": "Don't use the same keys across platforms",
+            "ignore": "Don't ignore security alerts",
+            "skip": "Don't skip KYC verification"
+        }
+    },
+    "items": {
+        "binance": {
+            "description": "World's largest crypto exchange by trading volume",
+            "highlights": [
+                "Largest liquidity pool globally",
+                "Lowest trading fees (0.1%)",
+                "300+ trading pairs",
+                "Advanced charting tools",
+                "Testnet available for testing"
+            ],
+            "requirements": [
+                "KYC verification required",
+                "Minimum deposit: $10",
+                "API rate limits: 1200/min"
+            ]
+        },
+        "okx": {
+            "description": "Leading crypto derivatives and spot exchange",
+            "highlights": [
+                "Advanced derivatives trading",
+                "Options & perpetual contracts",
+                "200+ trading pairs",
+                "Copy trading available",
+                "Demo trading account"
+            ],
+            "requirements": [
+                "KYC verification required",
+                "Minimum deposit: $10",
+                "API rate limits: 60/2s per IP"
+            ]
+        },
+        "bybit": {
+            "description": "Fast-growing derivatives and spot trading platform",
+            "highlights": [
+                "High leverage up to 100x",
+                "Unified trading account",
+                "150+ trading pairs",
+                "No KYC for basic features",
+                "Testnet with virtual funds"
+            ],
+            "requirements": [
+                "KYC optional (limits apply)",
+                "Minimum deposit: $1",
+                "API rate limits: 50/s"
+            ]
+        },
+        "kucoin": {
+            "description": "People's exchange with 700+ cryptocurrencies",
+            "highlights": [
+                "700+ cryptocurrencies listed",
+                "Early access to new tokens",
+                "Trading bots built-in",
+                "Lending & borrowing",
+                "Sandbox environment"
+            ],
+            "requirements": [
+                "KYC verification recommended",
+                "Minimum deposit: $10",
+                "API rate limits: 30/3s"
+            ]
+        }
+    },
+    "guide": {
+        "step1": {
+            "title": "Create Exchange Account",
+            "description": "Sign up on your chosen exchange and complete KYC verification if required. Ensure your account is fully verified and funded.",
+            "tips": [
+                "Use a strong, unique password",
+                "Enable 2FA authentication",
+                "Verify your email and phone number"
+            ]
+        },
+        "step2": {
+            "title": "Generate API Keys",
+            "description": "Navigate to your exchange's API management section and create a new API key with appropriate permissions.",
+            "tips": [
+                "Enable only 'Read' and 'Trade' permissions",
+                "NEVER enable 'Withdraw' permissions",
+                "Save your Secret Key securely (shown only once)",
+                "Whitelist Orbitra AI IP addresses if available"
+            ]
+        },
+        "step3": {
+            "title": "Configure API Permissions",
+            "description": "Set the correct permissions for your API key to ensure secure trading operations.",
+            "permissions": {
+                "read": "Read Account Info",
+                "spot": "Spot Trading",
+                "futures": "Futures Trading",
+                "futures_note": "Only if using futures",
+                "margin": "Margin Trading",
+                "margin_note": "Only if using margin",
+                "withdrawal": "Withdrawal",
+                "withdrawal_note": "NEVER enable this"
+            }
+        },
+        "step4": {
+            "title": "Add to Orbitra AI",
+            "description": "Copy your API credentials and add them to Orbitra AI platform.",
+            "tips": [
+                "Go to Settings → API Settings in Orbitra AI",
+                "Select your exchange from the dropdown",
+                "Paste your API Key and Secret Key",
+                "Add passphrase if required (OKX, KuCoin)",
+                "Test connection before saving"
+            ]
+        },
+        "step5": {
+            "title": "Test & Verify",
+            "description": "Test the connection to ensure everything is working correctly before going live.",
+            "tips": [
+                "Use testnet/demo account first if available",
+                "Start with small amounts",
+                "Verify balance sync is working",
+                "Test a small manual trade",
+                "Monitor for API errors"
+            ]
+        }
+    },
+    "faq": {
+        "q1": "Can I connect multiple exchanges?",
+        "a1": "Yes! Pro and Enterprise plans allow you to connect multiple exchange accounts simultaneously and trade across all of them from one dashboard.",
+        "q2": "Are my API keys secure?",
+        "a2": "Absolutely. We use bank-level AES-256 encryption to store your API keys. We only request read and trade permissions—never withdrawal permissions—so your funds remain 100% under your control.",
+        "q3": "Do I need KYC verification?",
+        "a3": "It depends on the exchange. Binance, OKX, and KuCoin require KYC for most features. Bybit allows basic trading without KYC but with lower limits. We recommend completing KYC for full functionality.",
+        "q4": "What happens if my API key is compromised?",
+        "a4": "Immediately revoke the API key from your exchange account and generate a new one. Since we never request withdrawal permissions, your funds cannot be stolen even if the key is compromised. Update Orbitra AI with your new API credentials.",
+        "q5": "Can I test without real money?",
+        "a5": "Yes! Binance, OKX, Bybit, and KuCoin all offer testnet or demo accounts with virtual funds. We highly recommend testing your strategies there before using real capital."
+    }
+}

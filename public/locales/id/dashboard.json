@@ -1,0 +1,43 @@
+{
+    "title": "Dashboard",
+    "welcome": "Selamat datang di Orbitra AI™",
+    "metrics": {
+        "total_equity": "Total Ekuitas",
+        "daily_pnl": "PnL Harian",
+        "unrealized_pnl": "PnL Belum Direalisasi",
+        "exposure": "Eksposur",
+        "no_data": "Data portofolio tidak tersedia",
+        "error": "Kesalahan: {{error}}"
+    },
+    "bot_control": {
+        "title": "Kontrol Bot",
+        "cannot_start": "Tidak dapat memulai bot",
+        "check_settings": "Periksa pengaturan",
+        "risk_updated": "Tingkat risiko diperbarui",
+        "risk_updated_desc": "Tingkat risiko baru: {{value}}%",
+        "error_title": "Kesalahan",
+        "risk_update_error": "Gagal memperbarui tingkat risiko",
+        "press_to_stop": "Tekan untuk menghentikan bot",
+        "press_to_start": "Tekan untuk memulai bot",
+        "strategy_label": "Strategi: {{name}} v{{version}}",
+        "view_all_trades": "Lihat Semua Transaksi",
+        "advanced_settings": "Pengaturan Lanjutan"
+    },
+    "performance": {
+        "title": "Performa & Strategi",
+        "capital_usage": "Penggunaan Modal",
+        "percent_used": "{{value}}% digunakan",
+        "active_trades": "Transaksi Aktif",
+        "win_rate": "Win Rate",
+        "strategies": {
+            "dca_advanced": "DCA Lanjutan",
+            "risk_management": "Manajemen Risiko",
+            "smart_tp": "Smart Take Profit",
+            "market_analysis": "Analisis Pasar"
+        },
+        "status": {
+            "active": "Aktif",
+            "disabled": "Nonaktif"
+        }
+    }
+}

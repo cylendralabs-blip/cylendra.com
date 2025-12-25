@@ -1,0 +1,40 @@
+{
+    "title": "لوحة تحكم نظام الإحالة",
+    "subtitle": "إدارة الإحالات والأرباح الخاصة بك",
+    "tier": "{{tier}} Tier",
+    "tiers": {
+        "bronze": "برونزي",
+        "silver": "فضي",
+        "gold": "ذهبي"
+    },
+    "register": {
+        "title": "انضم إلى نظام الإحالة",
+        "description": "انضم إلى برنامج الإحالة الخاص بنا وابدأ في كسب المكافآت",
+        "button": "التسجيل كشريك إحالة",
+        "success": "تم إنشاء حساب الإحالة بنجاح!",
+        "error": "فشل في إنشاء حساب الإحالة"
+    },
+    "stats": {
+        "total_referrals": "إجمالي الإحالات",
+        "active": "{{count}} نشط",
+        "total_earnings": "إجمالي الأرباح",
+        "pending": "${{amount}} قيد الانتظار",
+        "loyalty_points": "نقاط الولاء",
+        "cpu_units": "وحدات CPU",
+        "value": "${{amount}} قيمة",
+        "influence_tokens": "توكن التأثير",
+        "pending_release": "قيد الإطلاق"
+    },
+    "tabs": {
+        "overview": "نظرة عامة",
+        "earnings": "الأرباح",
+        "referrals": "الإحالات",
+        "cpu": "CPU",
+        "tokens": "التوكن",
+        "missions": "المهام",
+        "leaderboard": "لوحة المتصدرين"
+    },
+    "errors": {
+        "load_failed": "فشل في تحميل لوحة التحكم"
+    }
+}

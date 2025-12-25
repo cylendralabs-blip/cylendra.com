@@ -1,0 +1,129 @@
+{
+    "live": {
+        "title": "Smart Live Signals",
+        "subtitle": "Monitor high-confidence signals in real-time with full filter control and analysis.",
+        "badge": "LIVE",
+        "connected": "Connected Real-time",
+        "connecting": "Connecting...",
+        "reset_filters": "Reset Filters",
+        "toast": {
+            "strong_signal": "Strong {{side}} signal arrived now ({{confidence}}% confidence)"
+        }
+    },
+    "history": {
+        "title": "Advanced Signals History",
+        "subtitle": "View and analyze past signals with detailed statistics",
+        "badge": "HISTORY",
+        "total_signals_desc": "Total {{count}} signals in history",
+        "no_signals_desc": "No signals in history",
+        "loading_signals": "Loading signals...",
+        "no_results": "No signals match the selected filters. Try changing filters or date range.",
+        "load_more": "Load More",
+        "loading_more": "Loading...",
+        "showing_results": "Showing {{current}} of {{total}} signals",
+        "error_loading": "An error occurred while loading signals. Please try again."
+    },
+    "common": {
+        "filters": {
+            "title": "Filters",
+            "symbol": "Symbol",
+            "all_symbols": "All Symbols",
+            "timeframe": "Timeframe",
+            "all_timeframes": "All Timeframes",
+            "side": "Side",
+            "all_sides": "All Sides",
+            "buy": "Buy",
+            "sell": "Sell",
+            "wait": "Wait",
+            "min_confidence": "Min Confidence",
+            "strong_only": "Strong Signals Only",
+            "date_range": "Date Range",
+            "start_date": "Start Date",
+            "end_date": "End Date",
+            "reset": "Reset Filters"
+        },
+        "summary": {
+            "total_signals": "Total Signals",
+            "buy_signals": "Buy Signals",
+            "sell_signals": "Sell Signals",
+            "strong_signals": "Strong Signals",
+            "avg_confidence": "Avg Confidence",
+            "avg_rr": "Avg RR",
+            "realtime_status": "Real-time Status",
+            "last_updated": "Last updated",
+            "connected": "Connected Live",
+            "reconnecting": "Reconnecting..."
+        },
+        "table": {
+            "symbol": "Symbol",
+            "timeframe": "TF",
+            "side": "Side",
+            "confidence": "Confidence",
+            "price": "Price",
+            "tp_sl": "TP / Target / SL",
+            "status": "Status",
+            "time": "Time",
+            "actions": "Actions",
+            "view_details": "View Details",
+            "entry_target_sl": "Entry / Target / SL",
+            "risk": "Risk",
+            "rr": "RR",
+            "success_prob": "Success Prob",
+            "expected_return": "Expected Return",
+            "forecast": "Forecast",
+            "loading_live": "Loading live signals...",
+            "no_signals": "No live signals currently. Signals will appear here when they arrive.",
+            "entry": "Entry",
+            "target": "Target",
+            "stop": "Stop",
+            "high": "High",
+            "medium": "Medium",
+            "low": "Low"
+        },
+        "details": {
+            "title": "Signal Analysis",
+            "description": "Comprehensive technical and AI analysis",
+            "metrics": {
+                "technical": "Technical Score",
+                "ai": "AI Prediction",
+                "volume": "Volume Score",
+                "risk_reward": "Risk/Reward",
+                "final_confidence": "Final Confidence",
+                "risk_level": "Risk Level",
+                "entry": "Entry",
+                "target": "Target",
+                "stop_loss": "Stop Loss",
+                "rr_ratio": "RR Ratio",
+                "technical_score": "Technical Score",
+                "volume_score": "Volume Score",
+                "pattern_score": "Pattern Score",
+                "wave_score": "Wave Score",
+                "sentiment_score": "Sentiment Score",
+                "ai_score": "AI Score"
+            },
+            "indicators": "Key Indicators",
+            "reasoning": "AI Reasoning",
+            "management": "Trade Management",
+            "sources_used": "Sources Used",
+            "sources": {
+                "ai_analyzer": "AI Analysis",
+                "tv_webhook": "TradingView",
+                "legacy_engine": "Legacy Engine",
+                "manual": "Manual"
+            },
+            "reasoning_title": "Signal Reasoning",
+            "forecast": {
+                "title": "Outcome Prediction",
+                "success_probability": "Success Probability",
+                "classification": "Classification",
+                "expected_return": "Expected Return",
+                "expected_duration": "Expected Duration",
+                "risk_adjusted_score": "Risk Adjusted Score",
+                "sample_size": "Sample Size",
+                "duration_value": "{{minutes}} minutes",
+                "sample_size_value": "{{count}} similar signals",
+                "forecast_desc": "Prediction is based on {{count}} similar signals in historical data"
+            }
+        }
+    }
+}

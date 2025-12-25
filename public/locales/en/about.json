@@ -1,0 +1,103 @@
+{
+    "hero": {
+        "badge": "About Cylendra",
+        "title": "Building the Future of Intelligent Trading",
+        "subtitle": "We're on a mission to democratize advanced AI trading technology and make it accessible to everyone"
+    },
+    "story": {
+        "title": "Our Story",
+        "subtitle": "How Orbitra AI came to be",
+        "p1": "Founded in 2020 by a team of passionate traders and AI engineers, Cylendra was born from a simple observation: traditional trading tools were outdated, complex, and inaccessible to most people.",
+        "p2": "We believed that artificial intelligence could level the playing field, giving everyday traders the same sophisticated tools used by Wall Street hedge funds. After years of research, development, and testing, Orbitra AI was born.",
+        "p3": "Today, we serve thousands of traders across 50+ countries, processing millions of dollars in daily trading volume. Our AI has learned from billions of data points, constantly evolving to adapt to market conditions and deliver consistent results.",
+        "footer": "But we're just getting started. The future of trading is intelligent, automated, and accessible to all."
+    },
+    "mission": {
+        "title": "Our Mission",
+        "description": "To empower traders worldwide with cutting-edge AI technology that makes intelligent, data-driven trading decisions accessible, profitable, and secure for everyone—from beginners to professionals."
+    },
+    "vision": {
+        "title": "Our Vision",
+        "description": "To become the world's most trusted AI trading platform, where advanced technology meets simplicity, creating a future where anyone can build wealth through intelligent automated trading."
+    },
+    "values": {
+        "title": "Our Core Values",
+        "subtitle": "The principles that guide everything we do",
+        "innovation": {
+            "title": "Innovation First",
+            "description": "Pushing boundaries of AI and trading technology"
+        },
+        "security": {
+            "title": "Security by Design",
+            "description": "Bank-level encryption and protection for your assets"
+        },
+        "community": {
+            "title": "Community Driven",
+            "description": "Built with feedback from thousands of traders"
+        },
+        "performance": {
+            "title": "Performance Excellence",
+            "description": "Optimized for speed, reliability, and profitability"
+        }
+    },
+    "team": {
+        "title": "Meet Our Team",
+        "subtitle": "Industry experts passionate about AI and trading",
+        "member1": {
+            "name": "Ahmad Al-Mansouri",
+            "role": "CEO & Founder",
+            "bio": "15+ years in fintech and algorithmic trading"
+        },
+        "member2": {
+            "name": "Sarah Chen",
+            "role": "Chief AI Officer",
+            "bio": "PhD in Machine Learning, ex-Google AI"
+        },
+        "member3": {
+            "name": "Marcus Rodriguez",
+            "role": "Head of Trading",
+            "bio": "Former quantitative analyst at Goldman Sachs"
+        },
+        "member4": {
+            "name": "Fatima Hassan",
+            "role": "Chief Security Officer",
+            "bio": "Cybersecurity expert, CISSP certified"
+        }
+    },
+    "journey": {
+        "title": "Our Journey",
+        "subtitle": "Milestones that shaped Orbitra AI",
+        "step1": {
+            "event": "Cylendra founded",
+            "description": "Company established with vision to democratize AI trading"
+        },
+        "step2": {
+            "event": "Alpha Launch",
+            "description": "First AI trading algorithm deployed for internal testing"
+        },
+        "step3": {
+            "event": "Beta Release",
+            "description": "Limited beta program with 500 early adopters"
+        },
+        "step4": {
+            "event": "Public Launch",
+            "description": "Orbitra AI platform opened to public"
+        },
+        "step5": {
+            "event": "Global Expansion",
+            "description": "Supporting 50+ countries and 4 major exchanges"
+        }
+    },
+    "security": {
+        "title": "Security & Compliance",
+        "subtitle": "Industry-leading certifications and standards",
+        "iso": "Information Security Management",
+        "soc": "Security & Availability",
+        "pci": "Payment Card Industry",
+        "gdpr": "Data Protection"
+    },
+    "footer": {
+        "developed_by": "Proudly developed by",
+        "company": "Cylendra Technologies"
+    }
+}

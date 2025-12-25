@@ -1,0 +1,116 @@
+{
+    "nav": {
+        "home": "Home",
+        "strategies": "Strategies",
+        "exchanges": "Exchanges",
+        "pricing": "Pricing",
+        "about": "About",
+        "contact": "Contact",
+        "dashboard": "Dashboard",
+        "go_to_dashboard": "Go to Dashboard",
+        "sign_in": "Sign In",
+        "get_started": "Get Started"
+    },
+    "hero": {
+        "badge": "AI-Powered Market Intelligence",
+        "title_part1": "Trade Smarter with",
+        "title_part2": "Next-Gen AI",
+        "description": "The most advanced AI-powered trading platform. Neural networks, automated bots, and real-time signals to maximize your crypto profits.",
+        "start_trading": "Start Trading Now",
+        "view_demo": "View Demo"
+    },
+    "features": {
+        "title": "Powerful Features for Modern Traders",
+        "subtitle": "Everything you need to succeed in cryptocurrency trading, powered by AI",
+        "signals": {
+            "title": "AI-Powered Signals",
+            "description": "Advanced neural networks analyze market data in real-time to generate highly accurate trading signals."
+        },
+        "automation": {
+            "title": "Automated Trading",
+            "description": "Deploy intelligent trading bots that execute strategies 24/7 with precision and consistency."
+        },
+        "risk": {
+            "title": "Advanced Risk Management",
+            "description": "Comprehensive risk assessment and portfolio protection with AI-driven stop-loss algorithms."
+        },
+        "analytics": {
+            "title": "Real-Time Analytics",
+            "description": "Monitor performance with advanced charts, metrics, and predictive insights powered by AI."
+        },
+        "speed": {
+            "title": "Lightning Fast Execution",
+            "description": "Execute trades in milliseconds across multiple exchanges with our optimized infrastructure."
+        },
+        "backtesting": {
+            "title": "Smart Backtesting",
+            "description": "Test strategies against historical data with our AI-enhanced backtesting engine."
+        }
+    },
+    "stats": {
+        "uptime": "Uptime",
+        "active_traders": "Active Traders",
+        "volume": "Trading Volume",
+        "pairs": "Supported Pairs"
+    },
+    "platforms": {
+        "title": "Supported Exchanges",
+        "subtitle": "Trade across multiple leading cryptocurrency exchanges"
+    },
+    "testimonials": {
+        "title": "Trusted by Traders Worldwide",
+        "subtitle": "See what our users have to say",
+        "sarah": {
+            "name": "Sarah Johnson",
+            "role": "Professional Trader",
+            "content": "Orbitra AI has completely transformed my trading strategy. The AI signals are incredibly accurate."
+        },
+        "michael": {
+            "name": "Michael Chen",
+            "role": "Crypto Investor",
+            "content": "Best trading platform I've used. The automated bot saves me hours and consistently delivers results."
+        },
+        "emma": {
+            "name": "Emma Williams",
+            "role": "Day Trader",
+            "content": "The risk management features give me peace of mind. I can trade confidently knowing my portfolio is protected."
+        }
+    },
+    "cta": {
+        "title": "Ready to Start Trading Smarter?",
+        "subtitle": "Join thousands of traders using AI-powered strategies to maximize their returns",
+        "button_dashboard": "Go to Dashboard",
+        "button_trial": "Start Free Trial"
+    },
+    "pricing": {
+        "title": "Choose the Right Plan for You",
+        "subtitle": "Flexible plans that fit all trading needs",
+        "loading": "Loading plans...",
+        "beta_title": "You are in Beta mode:",
+        "beta_desc": "All plans are available for free for testing. No card or payment required now.",
+        "beta_ends": "Beta access ends on",
+        "beta_remaining": "days remaining",
+        "beta_after": "After that, paid plans will become active.",
+        "current_plan": "Your current plan",
+        "current_badge": "Current",
+        "month": "month",
+        "features": {
+            "signals": "AI Ultra Signals",
+            "live": "Live Center",
+            "auto": "Auto Trading",
+            "futures": "Futures Trading",
+            "telegram": "Telegram AI Signals",
+            "max_bots": "Max Bots"
+        },
+        "limits": {
+            "signals": "Signals/day",
+            "ai_calls": "AI Calls/day"
+        },
+        "buttons": {
+            "subscribe": "Subscribe Now",
+            "current": "Current Plan",
+            "select": "Select"
+        },
+        "footer": "All plans include technical support and a 30-day money-back guarantee"
+    }
+}

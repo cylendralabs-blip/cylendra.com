@@ -1,0 +1,59 @@
+[build]
+  command = "npm ci && npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "18"
+  NPM_VERSION = "9"
+
+# Redirect all requests to index.html for SPA routing
+# This ensures that all routes (like /dashboard, /auth, etc.) work on refresh
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  force = true
+
+# Headers for security and performance
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.css"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Production build settings
+[context.production]
+  command = "npm ci && npm run build"
+  publish = "dist"
+
+# Deploy preview settings (Pull Requests)
+[context.deploy-preview]
+  command = "npm ci && npm run build"
+  publish = "dist"
+
+# Branch deploy settings
+[context.branch-deploy]
+  command = "npm ci && npm run build"
+  publish = "dist"
+
+# Plugin configuration (optional)
+# [[plugins]]
+#   package = "@netlify/plugin-nextjs"

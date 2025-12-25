@@ -1,0 +1,63 @@
+{
+    "hero": {
+        "badge": "Get In Touch",
+        "title": "We'd Love to Hear From You",
+        "subtitle": "Have questions? Need support? Want to partner with us? Reach out anytime."
+    },
+    "form": {
+        "title": "Send Us a Message",
+        "subtitle": "Fill out the form below and we'll respond within 24 hours",
+        "labels": {
+            "name": "Name",
+            "email": "Email",
+            "subject": "Subject",
+            "message": "Message"
+        },
+        "placeholders": {
+            "name": "Your full name",
+            "email": "your@email.com",
+            "subject": "What's this about?",
+            "message": "Tell us more about your inquiry..."
+        },
+        "buttons": {
+            "sending": "Sending...",
+            "send": "Send Message"
+        },
+        "messages": {
+            "success_title": "Message sent successfully!",
+            "success_desc": "We'll get back to you within 24 hours."
+        }
+    },
+    "info": {
+        "quick_contact": {
+            "title": "Quick Contact",
+            "email": "Email",
+            "live_chat": "Live Chat",
+            "live_chat_desc": "24/7 support available",
+            "phone": "Phone"
+        },
+        "office": {
+            "title": "Our Office",
+            "company": "Cylendra Technologies",
+            "address": "Dubai Internet City\nBuilding 10, Office 304\nDubai, UAE"
+        },
+        "social": {
+            "title": "Connect With Us",
+            "telegram": "Join our community",
+            "twitter": "Follow for updates",
+            "youtube": "Watch tutorials",
+            "linkedin": "Professional network"
+        }
+    },
+    "map": {
+        "title": "Visit Our Office",
+        "subtitle": "Located in the heart of Dubai's tech hub"
+    },
+    "hours": {
+        "title": "Support Hours",
+        "chat_email": "Live Chat & Email",
+        "chat_email_status": "24/7 Available",
+        "phone": "Phone Support",
+        "phone_hours": "Sun - Thu: 9:00 AM - 6:00 PM GST"
+    }
+}

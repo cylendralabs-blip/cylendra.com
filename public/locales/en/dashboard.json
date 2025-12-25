@@ -1,0 +1,100 @@
+{
+    "title": "Dashboard",
+    "welcome": "Welcome to Orbitra AI™",
+    "metrics": {
+        "total_equity": "Total Equity",
+        "daily_pnl": "Daily PnL",
+        "unrealized_pnl": "Unrealized PnL",
+        "exposure": "Exposure",
+        "no_data": "No portfolio data available",
+        "error": "Error: {{error}}"
+    },
+    "bot_control": {
+        "title": "Bot Control",
+        "cannot_start": "Cannot start bot",
+        "check_settings": "Check settings",
+        "risk_updated": "Risk level updated",
+        "risk_updated_desc": "New risk level: {{value}}%",
+        "error_title": "Error",
+        "risk_update_error": "Error updating risk level",
+        "press_to_stop": "Press to stop bot",
+        "press_to_start": "Press to start bot",
+        "strategy_label": "Strategy: {{name}} v{{version}}",
+        "view_all_trades": "View All Trades",
+        "advanced_settings": "Advanced Settings",
+        "risk_level": "Risk Level"
+    },
+    "performance": {
+        "title": "Performance & Strategy",
+        "capital_usage": "Capital Usage",
+        "percent_used": "{{value}}% used",
+        "active_trades": "Active Trades",
+        "active_trades_val": "{{count}} Active Trades",
+        "win_rate": "Win Rate",
+        "win_rate_val": "{{value}}% Win Rate",
+        "strategies": {
+            "dca_advanced": "Advanced DCA",
+            "risk_management": "Risk Management",
+            "smart_tp": "Smart Take Profit",
+            "market_analysis": "Market Analysis"
+        },
+        "status": {
+            "active": "Active",
+            "disabled": "Disabled"
+        }
+    },
+    "open_positions": {
+        "title": "Open Positions",
+        "position": "Position",
+        "positions": "Positions",
+        "no_positions": "No open positions",
+        "total_pnl": "Total Open PnL",
+        "best": "Best Position",
+        "worst": "Worst Position",
+        "view_all": "View All Positions"
+    },
+    "trading_feed": {
+        "title": "Live Trading Feed",
+        "live": "Live",
+        "no_activity": "No recent activity",
+        "new_trade": "New Trade",
+        "trade_closed": "Trade Closed",
+        "position_closing": "Position Closing",
+        "position_updated": "Position Updated",
+        "trade_updated": "Trade Updated",
+        "units": "units"
+    },
+    "portfolio_chart": {
+        "title": "Portfolio Performance",
+        "net_profit": "Net Profit",
+        "no_data": "No data to display",
+        "cumulative_profit": "Cumulative Profit",
+        "days": "Days",
+        "day": "Day",
+        "year": "Year"
+    },
+    "advanced_metrics": {
+        "title": "Advanced Metrics",
+        "show_advanced": "Show Advanced",
+        "hide_advanced": "Hide Advanced",
+        "placeholder": "Advanced metrics will be displayed here"
+    },
+    "ai_risk": {
+        "title": "AI Risk Insights",
+        "low_risk": "Low Risk",
+        "medium_risk": "Medium Risk",
+        "high_risk": "High Risk",
+        "analyzing": "Analyzing risk...",
+        "last_updated": "Last updated",
+        "daily_loss": "Daily Loss",
+        "drawdown_limit": "Drawdown Limit",
+        "exposure": "Exposure",
+        "equity_percentage": "{{value}}% of equity",
+        "refresh_prompt": "Click refresh to get risk insights",
+        "error": "Unable to generate risk insights at this time."
+    },
+    "realtime": {
+        "connected": "Connected to {{count}} channels",
+        "disconnected": "Connecting to realtime..."
+    }
+}

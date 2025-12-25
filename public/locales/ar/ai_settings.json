@@ -1,0 +1,155 @@
+{
+    "settings": {
+        "title": "إعدادات المؤشرات المتقدمة",
+        "subtitle": "تحكم كامل بالمؤشرات، الحساسية، مصادر التحليل لكل إطار زمني.",
+        "smart_mode": "وضع الافتراضيات الذكي",
+        "custom_mode": "الوضع المخصص",
+        "smart_default": "الافتراضي الذكي",
+        "reset_defaults": "إعادة الافتراضيات",
+        "save_settings": "حفظ الإعدادات",
+        "timeframe_card": {
+            "title": "اختر الإطار الزمني",
+            "subtitle": "يمكن تخصيص كل إطار زمني بإعدادات مستقلة",
+            "placeholder": "اختر الإطار"
+        },
+        "tabs": {
+            "indicators": "المؤشرات",
+            "filters": "الحساسية والفلاتر",
+            "sources": "مصادر التحليل"
+        },
+        "indicators": {
+            "technical": {
+                "label": "المؤشرات التقنية",
+                "description": "RSI, MACD, EMA, ATR, ADX",
+                "params": {
+                    "rsiLength": "طول RSI",
+                    "macdFast": "MACD السريع",
+                    "macdSlow": "MACD البطيء",
+                    "macdSignal": "إشارة MACD",
+                    "atrPeriod": "فترة ATR",
+                    "adxPeriod": "فترة ADX"
+                }
+            },
+            "volume": {
+                "label": "تحليل الحجم والسيولة",
+                "description": "Volume Delta, Spike Detection",
+                "params": {
+                    "lookback": "فترة العودة",
+                    "spikeMultiplier": "مضاعف الارتفاع",
+                    "deltaMin": "الحد الأدنى للدلتا"
+                }
+            },
+            "patterns": {
+                "label": "أنماط الأسعار",
+                "description": "Triangles, Flags, H&S"
+            },
+            "elliott": {
+                "label": "تحليل موجات إليوت",
+                "description": "Wave 1-5, ABC correction"
+            },
+            "sentiment": {
+                "label": "تحليل المشاعر",
+                "description": "Fear & Greed, Funding Rate, Social",
+                "params": {
+                    "minScore": "الحد الأدنى لدرجة المشاعر"
+                }
+            },
+            "aiFusion": {
+                "label": "طبقة الذكاء الاصطناعي",
+                "description": "دمج النتائج تلقائياً"
+            },
+            "wave": {
+                "label": "كشف الموجات الديناميكي",
+                "description": "تأكيد إضافي لإشارات إليوت"
+            },
+            "candlePatterns": {
+                "label": "نماذج الشموع",
+                "description": "Engulfing, Doji, Pinbar, ..."
+            }
+        },
+        "filters": {
+            "title": "الحساسية والفلاتر",
+            "description": "تحدد قوة التأكيد المطلوبة لتوليد الإشارة.",
+            "sensitivity_label": "درجة الحساسية",
+            "sensitivity_placeholder": "اختر الحساسية",
+            "sensitivity_low": "منخفض - إشارات أقل لكنها قوية",
+            "sensitivity_medium": "متوسط - توازن",
+            "sensitivity_high": "مرتفع - إشارات أكثر",
+            "min_confidence_label": "الحد الأدنى للثقة",
+            "min_confidence_desc": "إذا انخفضت الثقة عن هذا الحد سيتم تجاهل الإشارة.",
+            "bias_mode_label": "وضع الانحياز",
+            "bias_mode_placeholder": "اختر الوضع",
+            "bias_mode_auto": "Auto Bias (موصى به)",
+            "bias_mode_breakout": "Breakout Mode",
+            "bias_mode_reversal": "Reversal Mode",
+            "fusion_model_label": "موديل الدمج",
+            "fusion_model_placeholder": "اختر الموديل",
+            "fusion_model_hybrid": "دمج هجين",
+            "fusion_model_technical": "تقني مكثف",
+            "fusion_model_sentiment": "مشاعر مكثفة"
+        },
+        "sources": {
+            "title": "مصادر التحليل",
+            "description": "تحكم في المصادر التي يدمجها النظام عند بناء الإشارات.",
+            "ai_analysis": "تحليل AI",
+            "tv_signals": "إشارات TradingView",
+            "legacy_engine": "المحرك المحلي",
+            "include_source_desc": "إدراج هذا المصدر في الدمج"
+        },
+        "timeframe_labels": {
+            "global": "الوضع العام",
+            "1m": "1m",
+            "5m": "5m",
+            "15m": "15m",
+            "1h": "1h",
+            "4h": "4h",
+            "1d": "1D"
+        },
+        "toast": {
+            "saved_title": "تم الحفظ",
+            "saved_desc": "تم تحديث إعدادات المؤشرات بنجاح.",
+            "save_failed_title": "تعذر الحفظ",
+            "save_failed_desc": "حدث خطأ أثناء حفظ الإعدادات.",
+            "reset_title": "تمت العودة للوضع الافتراضي",
+            "reset_desc": "تم تفعيل Smart Default Mode.",
+            "reset_failed_title": "خطأ في إعادة الضبط",
+            "reset_failed_desc": "تعذر استعادة الوضع الافتراضي."
+        }
+    },
+    "weights": {
+        "title": "محرر أوزان المؤشرات",
+        "subtitle": "وزع الأهمية بين التحليل الفني، الحجمي، الموجي، المشاعري، والذكاء الاصطناعي.",
+        "total_weight": "إجمالي الأوزان",
+        "reset_weights": "إعادة تعيين الأوزان",
+        "save_weights": "حفظ الأوزان",
+        "timeframe_label": "الإطار الزمني",
+        "timeframe_desc": "اختر الإطار الذي تريد تعديل أوزانه.",
+        "total_sum_label": "مجموع الأوزان: {{total}}%",
+        "presets_title": "القوالب الجاهزة",
+        "presets_desc": "اختر قالباً سريعاً كنقطة بداية ثم عدّل حسب رغبتك.",
+        "weights_title": "أوزان المؤشرات",
+        "weights_desc": "تأكد أن مجموع الأرقام = 100%",
+        "invalid_sum_title": "المجموع غير صحيح",
+        "invalid_sum_desc": "يجب أن تساوي الأوزان 100%.",
+        "toast": {
+            "saved_title": "تم الحفظ",
+            "saved_desc": "تم تحديث أوزان المؤشرات بنجاح.",
+            "save_failed_title": "فشل الحفظ",
+            "save_failed_desc": "حدث خطأ أثناء حفظ الأوزان."
+        },
+        "presets": {
+            "balanced": "متوازن",
+            "momentum": "زخم",
+            "sentiment": "مشاعر",
+            "conservative": "تحفظي"
+        },
+        "fields": {
+            "technical": "الفني",
+            "volume": "الحجمي",
+            "patterns": "الأنماط",
+            "elliott": "إليوت",
+            "sentiment": "المشاعر",
+            "aiFusion": "دمج الذكاء الاصطناعي"
+        }
+    }
+}

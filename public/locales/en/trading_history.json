@@ -1,0 +1,12 @@
+{
+    "title": "Advanced Trading History",
+    "subtitle": "Comprehensive and synchronized view of all your trades across different platforms with live prices",
+    "tabs": {
+        "main_trades": "Main Trades",
+        "auto_trades": "Auto Trades",
+        "dca_orders": "DCA Orders"
+    },
+    "trade_log": "Trade Log",
+    "no_auto_trades": "No auto trades found",
+    "auto_trades_info": "Auto trades will appear here when your bot executes trades automatically"
+}

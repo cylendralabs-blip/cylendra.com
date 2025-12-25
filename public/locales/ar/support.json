@@ -1,0 +1,42 @@
+{
+    "metrics": {
+        "title": "مقاييس الدعم",
+        "subtitle": "تحليلات أداء فريق الدعم (آخر 30 يوم)",
+        "kpis": {
+            "open_tickets": "التذاكر المفتوحة",
+            "avg_response_time": "متوسط وقت الاستجابة",
+            "avg_resolution_time": "متوسط وقت الحل",
+            "hours": "ساعة",
+            "sla_breaches": "انتهاكات SLA"
+        },
+        "charts": {
+            "by_category": "التذاكر حسب التصنيف",
+            "by_priority": "التذاكر حسب الأولوية",
+            "no_data": "لا توجد بيانات"
+        },
+        "stats": {
+            "reopened": "التذاكر المعاد فتحها",
+            "closed_today": "التذاكر المغلقة اليوم",
+            "resolution_rate": "معدل الحل",
+            "per_day": "تذكرة/يوم"
+        },
+        "errors": {
+            "title": "خطأ",
+            "failed_to_load": "فشل في تحميل المقاييس"
+        },
+        "no_data_available": "لا توجد بيانات متاحة"
+    },
+    "user_dashboard": {
+        "title": "لوحة دعم المستخدم",
+        "back": "العودة",
+        "user_id": "User ID: {{userId}}",
+        "id_not_provided": "لم يتم توفير معرف المستخدم",
+        "tabs": {
+            "timeline": "Timeline",
+            "errors": "الأخطاء",
+            "api_health": "صحة API",
+            "actions": "إجراءات الدعم",
+            "notes": "الملاحظات"
+        }
+    }
+}

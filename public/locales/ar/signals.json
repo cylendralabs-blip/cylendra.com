@@ -1,0 +1,77 @@
+{
+    "community_signals": {
+        "title": "إشارات المجتمع",
+        "subtitle": "شارك إشاراتك وتابع أفضل المتداولين",
+        "feature_lock": {
+            "name": "إشارات المجتمع",
+            "description": "إشارات المجتمع متاحة لجميع المستخدمين."
+        },
+        "filters": {
+            "title": "الفلاتر",
+            "symbol": "الرمز",
+            "symbol_placeholder": "BTC/USDT",
+            "timeframe": "الإطار الزمني",
+            "all": "الكل",
+            "side": "الاتجاه",
+            "buy": "شراء",
+            "sell": "بيع",
+            "sort": "الترتيب",
+            "newest": "الأحدث",
+            "most_voted": "الأكثر تصويتاً",
+            "highest_reputation": "الأعلى سمعة",
+            "influencers_only": "المؤثرين فقط",
+            "ai_verified_only": "AI Verified فقط"
+        },
+        "loading": "جاري التحميل...",
+        "no_signals": "لا توجد إشارات متاحة حالياً",
+        "load_more": "تحميل المزيد"
+    },
+    "my_signals": {
+        "title": "إشاراتي",
+        "subtitle": "إدارة وتتبع إشاراتك في المجتمع",
+        "publish_new": "نشر إشارة جديدة",
+        "stats": {
+            "rank": "الرتبة",
+            "win_rate": "Win Rate",
+            "avg_return": "متوسط العائد",
+            "lp_points": "LP Points"
+        },
+        "open_signals": {
+            "title": "الإشارات المفتوحة ({{count}})",
+            "description": "إشاراتك النشطة التي لم تُغلق بعد",
+            "no_signals": "لا توجد إشارات مفتوحة",
+            "close_button": "إغلاق الإشارة"
+        },
+        "closed_signals": {
+            "title": "الإشارات المغلقة ({{count}})",
+            "description": "سجل إشاراتك المكتملة",
+            "no_signals": "لا توجد إشارات مغلقة"
+        },
+        "close_dialog": {
+            "title": "إغلاق الإشارة",
+            "description": "أدخل نتيجة الإشارة والنسبة المئوية للربح/الخسارة",
+            "result_label": "النتيجة",
+            "pnl_label": "النسبة المئوية للربح/الخسارة (%)",
+            "pnl_placeholder": "مثلاً: 2.5 للربح أو -1.2 للخسارة",
+            "win": "ربح",
+            "loss": "خسارة",
+            "breakeven": "تعادل",
+            "closing": "جاري الإغلاق...",
+            "close_button": "إغلاق الإشارة"
+        },
+        "no_signals": "لم تنشر أي إشارات بعد",
+        "start_sharing": "ابدأ بمشاركة رؤيتك التداولية مع المجتمع"
+    },
+    "influencers": {
+        "title": "مركز المؤثرين",
+        "subtitle": "اكتشف وتابع المؤثرين الموثقين في التداول",
+        "verified_badge": "موثق",
+        "followers": "{{count}} متابع",
+        "signals_count": "{{count}} إشارة",
+        "follow": "متابعة",
+        "unfollow": "إلغاء المتابعة",
+        "view_profile": "عرض الملف الشخصي",
+        "no_influencers": "لا يوجد مؤثرين",
+        "loading": "جاري تحميل المؤثرين..."
+    }
+}

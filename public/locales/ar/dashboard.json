@@ -1,0 +1,100 @@
+{
+    "title": "لوحة التحكم",
+    "welcome": "مرحباً بك في Orbitra AI™",
+    "metrics": {
+        "total_equity": "إجمالي الملكية",
+        "daily_pnl": "الربح والخسارة اليومي",
+        "unrealized_pnl": "الربح والخسارة غير المحقق",
+        "exposure": "التعرض للمخاطر",
+        "no_data": "لا تتوفر بيانات المحفظة",
+        "error": "خطأ: {{error}}"
+    },
+    "bot_control": {
+        "title": "التحكم في البوت",
+        "cannot_start": "تعذر بدء البوت",
+        "check_settings": "تحقق من الإعدادات",
+        "risk_updated": "تم تحديث مستوى المخاطر",
+        "risk_updated_desc": "مستوى المخاطر الجديد: {{value}}%",
+        "error_title": "خطأ",
+        "risk_update_error": "خطأ في تحديث مستوى المخاطر",
+        "press_to_stop": "اضغط لإيقاف البوت",
+        "press_to_start": "اضغط لبدء البوت",
+        "strategy_label": "الاستراتيجية: {{name}} v{{version}}",
+        "view_all_trades": "عرض جميع الصفقات",
+        "advanced_settings": "إعدادات متقدمة",
+        "risk_level": "مستوى المخاطر"
+    },
+    "performance": {
+        "title": "الأداء والاستراتيجية",
+        "capital_usage": "استخدام رأس المال",
+        "percent_used": "{{value}}% مستخدم",
+        "active_trades": "الصفقات النشطة",
+        "active_trades_val": "{{count}} صفقات نشطة",
+        "win_rate": "نسبة الربح",
+        "win_rate_val": "{{value}}% نسبة الربح",
+        "strategies": {
+            "dca_advanced": "DCA متقدم",
+            "risk_management": "إدارة المخاطر",
+            "smart_tp": "جني الأرباح الذكي",
+            "market_analysis": "تحليل السوق"
+        },
+        "status": {
+            "active": "نشط",
+            "disabled": "معطل"
+        }
+    },
+    "open_positions": {
+        "title": "المراكز المفتوحة",
+        "position": "مركز",
+        "positions": "المراكز",
+        "no_positions": "لا توجد مراكز مفتوحة",
+        "total_pnl": "إجمالي الربح/الخسارة المفتوح",
+        "best": "أفضل مركز",
+        "worst": "أسوأ مركز",
+        "view_all": "عرض جميع المراكز"
+    },
+    "trading_feed": {
+        "title": "خلاصة التداول المباشر",
+        "live": "مباشر",
+        "no_activity": "لا يوجد نشاط حديث",
+        "new_trade": "صفقة جديدة",
+        "trade_closed": "تم إغلاق الصفقة",
+        "position_closing": "إغلاق المركز",
+        "position_updated": "تم تحديث المركز",
+        "trade_updated": "تم تحديث الصفقة",
+        "units": "وحدات"
+    },
+    "portfolio_chart": {
+        "title": "أداء المحفظة",
+        "net_profit": "صافي الربح",
+        "no_data": "لا توجد بيانات للعرض",
+        "cumulative_profit": "الربح التراكمي",
+        "days": "أيام",
+        "day": "يوم",
+        "year": "سنة"
+    },
+    "advanced_metrics": {
+        "title": "مقاييس متقدمة",
+        "show_advanced": "عرض المتقدم",
+        "hide_advanced": "إخفاء المتقدم",
+        "placeholder": "سيتم عرض المقاييس المتقدمة هنا"
+    },
+    "ai_risk": {
+        "title": "رؤى مخاطر الذكاء الاصطناعي",
+        "low_risk": "مخاطر منخفضة",
+        "medium_risk": "مخاطر متوسطة",
+        "high_risk": "مخاطر عالية",
+        "analyzing": "تحليل المخاطر...",
+        "last_updated": "آخر تحديث",
+        "daily_loss": "الخسارة اليومية",
+        "drawdown_limit": "حد التراجع",
+        "exposure": "التعرض للمخاطر",
+        "equity_percentage": "{{value}}% من حقوق الملكية",
+        "refresh_prompt": "انقر فوق تحديث للحصول على رؤى المخاطر",
+        "error": "تعذر إنشاء رؤى المخاطر في هذا الوقت."
+    },
+    "realtime": {
+        "connected": "متصل بـ {{count}} قنوات",
+        "disconnected": "جاري الاتصال بالبيانات اللحظية..."
+    }
+}

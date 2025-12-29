@@ -1,0 +1,129 @@
+{
+    "title": "Settings",
+    "subtitle": "Customize your experience and manage your preferences and account security",
+    "tabs": {
+        "general": "General",
+        "notifications": "Notifications",
+        "security": "Security",
+        "data": "Data"
+    },
+    "general": {
+        "appearance": {
+            "title": "Appearance and Display",
+            "subtitle": "Customize the application appearance and interface",
+            "mode": "Mode",
+            "mode_desc": "Choose light or dark mode",
+            "light": "Light",
+            "dark": "Dark",
+            "system": "System",
+            "language": "Language",
+            "language_desc": "Application display language",
+            "currency": "Currency",
+            "currency_desc": "Default display currency"
+        },
+        "session": {
+            "title": "Session Settings",
+            "subtitle": "Manage sessions and security",
+            "timeout": "Session Timeout",
+            "timeout_desc": "Automatic session timeout duration",
+            "30m": "30 minutes",
+            "1h": "1 hour",
+            "6h": "6 hours",
+            "24h": "24 hours",
+            "auto_save": "Auto Save",
+            "auto_save_desc": "Save settings automatically"
+        }
+    },
+    "notifications": {
+        "title": "Notification Settings",
+        "subtitle": "Manage notification settings and alerts",
+        "app": {
+            "title": "App Notifications",
+            "email": "Email Notifications",
+            "email_desc": "Receive notifications via email",
+            "push": "Push Notifications",
+            "push_desc": "Browser notifications"
+        },
+        "trading": {
+            "title": "Trading Notifications",
+            "alerts": "Trading Alerts",
+            "alerts_desc": "Alerts when trades are executed",
+            "price": "Price Alerts",
+            "price_desc": "Price change alerts",
+            "sounds": "Sound Effects",
+            "sounds_desc": "Play sounds"
+        }
+    },
+    "security": {
+        "two_factor": {
+            "title": "Two-Factor Authentication (2FA)",
+            "subtitle": "Add an extra layer of protection to your account using an authentication app",
+            "enabled": "Enabled",
+            "disabled": "Disabled"
+        },
+        "logs": {
+            "title": "Security Activity Log",
+            "subtitle": "Track all security activities and access to your account",
+            "clear_old": "Clear old",
+            "no_activities": "No recorded security activities",
+            "status_success": "Success",
+            "status_failed": "Failed",
+            "actions": {
+                "2fa_enabled": "Two-factor authentication enabled",
+                "2fa_disabled": "Two-factor authentication disabled",
+                "login": "Login",
+                "logout": "Logout"
+            }
+        }
+    },
+    "data": {
+        "title": "Data Management",
+        "subtitle": "Data management and deletion tools",
+        "export": "Export Data",
+        "activity_report": "Download Activity Report",
+        "delete_all": "Permanently delete all data",
+        "backups": {
+            "title": "Backups",
+            "subtitle": "Manage backups for your settings and strategies",
+            "create_new": "Create New Backup",
+            "name": "Backup Name",
+            "name_placeholder": "Example: June 2024 Settings",
+            "enable_auto": "Enable Auto Backup",
+            "create_button": "Create Backup",
+            "creating": "Creating...",
+            "auto_info": "Auto backup will run every 24 hours and keep the last 30 copies.",
+            "saved_count": "Saved Backups ({{count}})",
+            "no_backups": "No saved backups",
+            "type_auto": "Auto",
+            "type_scheduled": "Scheduled",
+            "type_manual": "Manual",
+            "bot_settings": "Bot Settings",
+            "strategies": "Strategies",
+            "recommend_delete": "You have {{count}} backups. We recommend deleting old ones to save space."
+        }
+    },
+    "toast": {
+        "saved": "Saved",
+        "updated": "Setting updated successfully",
+        "theme_changed": "Theme Changed",
+        "switched_to": "Switched to {{mode}} mode",
+        "name_required": "Name Required",
+        "enter_name": "Please enter a name for the backup",
+        "created_success": "Created Successfully",
+        "created_desc": "Backup created successfully",
+        "create_error": "Creation Error",
+        "create_error_desc": "An error occurred while creating the backup",
+        "downloaded": "Downloaded",
+        "downloaded_desc": "Backup downloaded successfully",
+        "deleted": "Deleted",
+        "deleted_desc": "Backup deleted",
+        "delete_error": "Deletion Error",
+        "delete_error_desc": "An error occurred while deleting the backup",
+        "restored": "Restored",
+        "restored_desc": "Bot settings restored from backup",
+        "restore_error": "Restoration Error",
+        "restore_error_desc": "An error occurred while restoring the backup",
+        "no_data": "No Data",
+        "no_bot_settings": "This backup does not contain bot settings"
+    }
+}

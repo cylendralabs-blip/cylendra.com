@@ -1,0 +1,77 @@
+{
+    "community_signals": {
+        "title": "Community Signals",
+        "subtitle": "Share your signals and follow the best traders",
+        "feature_lock": {
+            "name": "Community Signals",
+            "description": "Community signals are available to all users."
+        },
+        "filters": {
+            "title": "Filters",
+            "symbol": "Symbol",
+            "symbol_placeholder": "BTC/USDT",
+            "timeframe": "Timeframe",
+            "all": "All",
+            "side": "Direction",
+            "buy": "Buy",
+            "sell": "Sell",
+            "sort": "Sort",
+            "newest": "Newest",
+            "most_voted": "Most Voted",
+            "highest_reputation": "Highest Reputation",
+            "influencers_only": "Influencers Only",
+            "ai_verified_only": "AI Verified Only"
+        },
+        "loading": "Loading...",
+        "no_signals": "No signals available currently",
+        "load_more": "Load More"
+    },
+    "my_signals": {
+        "title": "My Signals",
+        "subtitle": "Manage and track your published signals",
+        "publish_new": "Publish New Signal",
+        "stats": {
+            "rank": "Rank",
+            "win_rate": "Win Rate",
+            "avg_return": "Average Return",
+            "lp_points": "LP Points"
+        },
+        "open_signals": {
+            "title": "Open Signals ({{count}})",
+            "description": "Your active signals that haven't been closed yet",
+            "no_signals": "No open signals",
+            "close_button": "Close Signal"
+        },
+        "closed_signals": {
+            "title": "Closed Signals ({{count}})",
+            "description": "Your completed signals history",
+            "no_signals": "No closed signals"
+        },
+        "close_dialog": {
+            "title": "Close Signal",
+            "description": "Enter the signal result and profit/loss percentage",
+            "result_label": "Result",
+            "pnl_label": "Profit/Loss Percentage (%)",
+            "pnl_placeholder": "e.g: 2.5 for profit or -1.2 for loss",
+            "win": "Win",
+            "loss": "Loss",
+            "breakeven": "Breakeven",
+            "closing": "Closing...",
+            "close_button": "Close Signal"
+        },
+        "no_signals": "You haven't published any signals yet",
+        "start_sharing": "Start sharing your trading insights with the community"
+    },
+    "influencers": {
+        "title": "Influencers Hub",
+        "subtitle": "Discover and follow verified trading influencers",
+        "verified_badge": "Verified",
+        "followers": "{{count}} followers",
+        "signals_count": "{{count}} signals",
+        "follow": "Follow",
+        "unfollow": "Unfollow",
+        "view_profile": "View Profile",
+        "no_influencers": "No influencers found",
+        "loading": "Loading influencers..."
+    }
+}

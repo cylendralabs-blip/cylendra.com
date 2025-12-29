@@ -1,0 +1,15 @@
+{
+    "error_boundary": {
+        "title": "An Unexpected Error Occurred",
+        "message": "We apologize for the inconvenience. The error has been logged and will be fixed soon.",
+        "reload": "Reload Page"
+    },
+    "cache_monitor": {
+        "cache_items": "Cache Items: {{count}}",
+        "memory_usage": "Memory Usage: {{kb}} KB",
+        "keys": "Keys:",
+        "more": "+{{count}} more...",
+        "clear_all": "Clear All",
+        "cleanup": "Cleanup"
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "nav": {
+        "home": "Inicio",
+        "strategies": "Estrategias",
+        "exchanges": "Intercambios",
+        "pricing": "Precios",
+        "about": "Nosotros",
+        "contact": "Contacto",
+        "dashboard": "Panel",
+        "go_to_dashboard": "Ir al Panel",
+        "sign_in": "Entrar",
+        "get_started": "Empezar"
+    },
+    "hero": {
+        "badge": "Inteligencia de mercado impulsada por IA",
+        "title_part1": "Opera de forma más inteligente con",
+        "title_part2": "IA de nueva generación",
+        "description": "La plataforma de trading impulsada por IA más avanzada. Redes neuronales, bots automatizados y señales en tiempo real para maximizar sus ganancias en cripto.",
+        "start_trading": "Empezar a operar ahora",
+        "view_demo": "Ver Demo"
+    },
+    "pricing": {
+        "title": "Elija el plan adecuado para usted",
+        "subtitle": "Planes flexibles que se adaptan a todas las necesidades",
+        "loading": "Cargando planes...",
+        "beta_title": "Estás en modo Beta:",
+        "beta_desc": "Todos los planes están disponibles gratis para pruebas. No se requiere tarjeta ni pago ahora.",
+        "beta_ends": "El acceso Beta termina el",
+        "beta_remaining": "{{count}} días restantes",
+        "beta_after": "Después de eso, los planes de pago se activarán.",
+        "current_plan": "Tu plan actual",
+        "current_badge": "Actual",
+        "month": "mes",
+        "features": {
+            "signals": "Señales AI Ultra",
+            "live": "Centro en Vivo",
+            "auto": "Trading Automático",
+            "futures": "Trading de Futuros",
+            "telegram": "Señales Telegram AI",
+            "max_bots": "Bots Máximos"
+        },
+        "limits": {
+            "signals": "Señales/día",
+            "ai_calls": "Llamadas IA/día"
+        },
+        "buttons": {
+            "subscribe": "Suscribirse Ahora",
+            "current": "Plan Actual",
+            "select": "Seleccionar"
+        },
+        "footer": "Todos los planes incluyen soporte técnico y garantía de devolución de dinero de 30 días"
+    }
+}

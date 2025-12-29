@@ -1,0 +1,72 @@
+{
+    "title": "Trading Exchange Settings",
+    "subtitle": "Connect different exchange accounts to enable automated trading",
+    "tabs": {
+        "manage": "Manage Keys",
+        "add": "Add New Platform"
+    },
+    "manage": {
+        "no_platforms": "No platforms connected",
+        "no_platforms_desc": "Add a trading platform to start automated trading",
+        "platforms": {
+            "demo": "Demo Network",
+            "live": "Live Network",
+            "created_at": "Created at: {{date}}",
+            "enabled": "Enabled",
+            "disabled": "Disabled",
+            "delete": "Delete"
+        },
+        "fields": {
+            "api_key": "API Key",
+            "secret_key": "Secret Key",
+            "passphrase": "Passphrase"
+        }
+    },
+    "add": {
+        "title": "Add New Trading Platform",
+        "subtitle": "Enter API data to connect your trading platform",
+        "fields": {
+            "platform": "Platform",
+            "platform_placeholder": "Select trading platform",
+            "api_key": "API Key",
+            "api_key_placeholder": "Enter API Key",
+            "secret_key": "Secret Key",
+            "secret_key_placeholder": "Enter Secret Key",
+            "passphrase": "Passphrase",
+            "passphrase_placeholder": "Enter Passphrase (required for this platform)"
+        },
+        "live_warning": "⚠️ You are using the Live network. Ensure API settings are correct and you want to proceed.",
+        "security": {
+            "title": "Security Instructions",
+            "instruction_1": "Ensure Spot Trading is enabled in API settings",
+            "instruction_2": "Do not share API keys with anyone else",
+            "instruction_3": "Start with Demo network to test the bot",
+            "instruction_4": "Set withdrawal limits if available",
+            "instruction_passphrase": "For {{label}}: Passphrase is required to connect"
+        },
+        "button": "Add API Key",
+        "button_loading": "Adding..."
+    },
+    "toast": {
+        "error": "Error",
+        "fetch_failed": "Failed to fetch API keys",
+        "fields_required": "Please fill in all required fields",
+        "passphrase_required": "Please enter Passphrase for this platform",
+        "must_be_demo": "{{label}} must be in Testnet/Demo mode",
+        "save_failed": "Failed to save API key",
+        "connection_error": "Connection Error",
+        "connection_failed": "Platform connection test failed",
+        "invalid_key": "Invalid API Key",
+        "invalid_key_desc": "Platform connection test failed. Ensure key is correct and has correct permissions (read/trade).",
+        "success": "Success",
+        "connected": "Platform connected successfully",
+        "verified_platform": "Connection verified for platform {{label}}.",
+        "verified": "Connection verified for platform.",
+        "add_failed": "Failed to add API key",
+        "deleted": "API key deleted successfully",
+        "delete_failed": "Failed to delete API key",
+        "enabled": "API key enabled",
+        "disabled": "API key disabled",
+        "update_failed": "Failed to update API key status"
+    }
+}

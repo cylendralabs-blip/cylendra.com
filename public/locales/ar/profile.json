@@ -1,0 +1,32 @@
+{
+    "title": "الملف الشخصي",
+    "subtitle": "إدارة معلوماتك الشخصية وإعدادات الحساب",
+    "user_card": {
+        "default_user": "مستخدم",
+        "advanced_user": "مستخدم متقدم",
+        "email": "البريد الإلكتروني",
+        "join_date": "تاريخ الانضمام",
+        "join_date_val": "يناير 2024"
+    },
+    "personal_info": {
+        "title": "المعلومات الشخصية",
+        "subtitle": "قم بتحديث معلوماتك الشخصية هنا",
+        "edit": "تعديل",
+        "cancel": "إلغاء",
+        "save": "حفظ التغييرات",
+        "fields": {
+            "first_name": "الاسم الأول",
+            "first_name_placeholder": "أدخل الاسم الأول",
+            "last_name": "الاسم الأخير",
+            "last_name_placeholder": "أدخل الاسم الأخير",
+            "phone": "رقم الهاتف",
+            "phone_placeholder": "أدخل رقم الهاتف",
+            "bio": "نبذة شخصية",
+            "bio_placeholder": "اكتب نبذة عن نفسك..."
+        }
+    },
+    "toast": {
+        "success": "تم الحفظ بنجاح",
+        "updated": "تم تحديث بياناتك الشخصية"
+    }
+}

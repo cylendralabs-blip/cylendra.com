@@ -1,0 +1,179 @@
+{
+    "hero": {
+        "badge": "AI Technology",
+        "title": "The Science Behind Orbitra AI",
+        "subtitle": "Discover how advanced neural networks and machine learning power profitable trading decisions"
+    },
+    "technologies": {
+        "neural_networks": {
+            "title": "Neural Networks",
+            "subtitle": "The Foundation of AI Trading",
+            "description": "Neural networks are the backbone of our AI system, mimicking the human brain's ability to learn patterns and make decisions. Our multi-layer networks process millions of data points to identify profitable trading opportunities.",
+            "input_layer": {
+                "title": "Input Layer",
+                "description": "Receives market data including price, volume, order book depth, and technical indicators"
+            },
+            "hidden_layers": {
+                "title": "Hidden Layers",
+                "description": "Multiple layers of neurons process and transform data, learning complex patterns and relationships"
+            },
+            "output_layer": {
+                "title": "Output Layer",
+                "description": "Produces trading signals: Buy, Sell, or Hold with confidence scores"
+            },
+            "architecture": {
+                "title": "Technical Specifications",
+                "layers": "12 hidden layers",
+                "neurons": "2,048 neurons per layer",
+                "parameters": "~25M trainable parameters",
+                "activation": "ReLU + Softmax functions"
+            }
+        },
+        "lstm_transformers": {
+            "title": "LSTM & Transformer Models",
+            "subtitle": "Time-Series Prediction Engine",
+            "description": "Long Short-Term Memory (LSTM) networks and Transformer models excel at understanding temporal patterns in financial data. They remember long-term trends while adapting to recent market changes.",
+            "lstm_networks": {
+                "title": "LSTM Networks",
+                "description": "Specialized for sequential data, capturing short and long-term dependencies in price movements"
+            },
+            "attention_mechanism": {
+                "title": "Attention Mechanism",
+                "description": "Transformers use self-attention to focus on the most relevant time periods and market events"
+            },
+            "contextual_understanding": {
+                "title": "Contextual Understanding",
+                "description": "Models understand market context by analyzing relationships between different time frames"
+            },
+            "architecture": {
+                "layers": "8 LSTM layers + 6 Transformer blocks",
+                "sequence": "Analyzes 1,000+ candles",
+                "attention": "Multi-head attention (8 heads)",
+                "memory": "Retains 30-day market memory"
+            }
+        },
+        "pipeline": {
+            "title": "AI Pipeline Architecture",
+            "subtitle": "From Data to Decision",
+            "description": "Our AI pipeline orchestrates multiple models and data sources into a seamless decision-making system. Every component works together to ensure accuracy and speed.",
+            "data_collection": {
+                "title": "Data Collection",
+                "description": "Real-time ingestion from exchanges, news sources, and social media sentiment"
+            },
+            "feature_engineering": {
+                "title": "Feature Engineering",
+                "description": "Automated extraction of 200+ technical indicators and custom features"
+            },
+            "model_ensemble": {
+                "title": "Model Ensemble",
+                "description": "Combines predictions from 5+ specialized models for robust signals"
+            },
+            "risk_assessment": {
+                "title": "Risk Assessment",
+                "description": "Real-time portfolio analysis and position sizing optimization"
+            },
+            "execution_engine": {
+                "title": "Execution Engine",
+                "description": "Smart order routing with slippage minimization and optimal timing"
+            },
+            "metrics": {
+                "title": "Performance Metrics",
+                "latency": "< 50ms end-to-end",
+                "throughput": "10,000 signals/second",
+                "uptime": "99.95% availability",
+                "accuracy": "~76% historical accuracy"
+            }
+        },
+        "decision_making": {
+            "title": "Decision-Making Process",
+            "subtitle": "How AI Makes Trading Decisions",
+            "description": "Our AI doesn't just predict prices—it makes intelligent trading decisions by weighing multiple factors, assessing risk, and optimizing for your specific strategy.",
+            "signal_generation": {
+                "title": "Signal Generation",
+                "description": "AI analyzes market conditions and generates buy/sell signals with confidence scores"
+            },
+            "confidence_scoring": {
+                "title": "Confidence Scoring",
+                "description": "Each signal receives a 0-100% confidence score based on model agreement and market conditions"
+            },
+            "risk_evaluation": {
+                "title": "Risk Evaluation",
+                "description": "Calculates stop-loss, take-profit, and position size based on your risk parameters"
+            },
+            "market_context": {
+                "title": "Market Context",
+                "description": "Considers volatility, liquidity, and overall market sentiment before execution"
+            },
+            "execution_decision": {
+                "title": "Execution Decision",
+                "description": "Final go/no-go decision considering all factors and your strategy settings"
+            },
+            "decision_flow": {
+                "title": "Decision Flow",
+                "subtitle": "How the AI makes a trading decision",
+                "step1": "Market Analysis",
+                "check1": "Is trend favorable?",
+                "step2": "Model Consensus",
+                "check2": "Do ≥3 models agree?",
+                "step3": "Risk Check",
+                "check3": "Is R:R ratio ≥2:1?",
+                "step4": "Liquidity Check",
+                "check4": "Sufficient volume?",
+                "step5": "Portfolio Check",
+                "check5": "Within exposure limits?",
+                "step6": "Execute Trade",
+                "check6": "All checks passed ✓"
+            }
+        }
+    },
+    "advantages": {
+        "title": "Why AI Beats Human Trading",
+        "subtitle": "Artificial intelligence offers advantages that human traders simply cannot match",
+        "emotion_free": {
+            "title": "Emotion-Free Trading",
+            "description": "AI doesn't panic sell or FOMO buy. Every decision is based on data and probabilities."
+        },
+        "monitoring": {
+            "title": "24/7 Monitoring",
+            "description": "Never miss an opportunity. Our AI monitors markets around the clock without fatigue."
+        },
+        "speed": {
+            "title": "Lightning Fast",
+            "description": "Process millions of data points in milliseconds, reacting faster than any human trader."
+        },
+        "learning": {
+            "title": "Continuous Learning",
+            "description": "Models retrain daily on new data, adapting to changing market conditions."
+        }
+    },
+    "learning_process": {
+        "title": "Continuous Learning & Improvement",
+        "subtitle": "Our AI models are constantly evolving to stay ahead of the market",
+        "data": {
+            "title": "Training Data",
+            "item1": "10+ years historical data",
+            "item2": "100+ cryptocurrency pairs",
+            "item3": "Billions of data points",
+            "item4": "Multiple market cycles"
+        },
+        "schedule": {
+            "title": "Retraining Schedule",
+            "item1": "Daily model updates",
+            "item2": "Weekly strategy optimization",
+            "item3": "Monthly architecture reviews",
+            "item4": "Real-time parameter tuning"
+        },
+        "validation": {
+            "title": "Validation Process",
+            "item1": "Backtesting on unseen data",
+            "item2": "Walk-forward analysis",
+            "item3": "Live A/B testing",
+            "item4": "Performance benchmarking"
+        }
+    },
+    "cta": {
+        "title": "Experience the Power of AI Trading",
+        "subtitle": "Join thousands of traders leveraging cutting-edge AI technology to maximize profits",
+        "button": "Start Free Trial"
+    }
+}

@@ -1,0 +1,114 @@
+{
+    "title": "TradingView Signals",
+    "automated": "AUTOMATED",
+    "subtitle": "Automatically receive and execute trading signals from TradingView strategies",
+    "system_status": {
+        "title": "System Status",
+        "status": "Status",
+        "enabled": "Enabled",
+        "disabled": "Disabled",
+        "total_signals": "Total Signals",
+        "win_rate": "Win Rate",
+        "total_pnl": "Total PNL",
+        "tip": "💡 Tip:",
+        "test_tip": "Use the button above to create a test signal and test the system"
+    },
+    "tabs": {
+        "signals": "Signals",
+        "performance": "Performance",
+        "settings": "Settings"
+    },
+    "performance": {
+        "general_stats": "General Statistics",
+        "total_signals": "Total Signals",
+        "successful_signals": "Successful Signals",
+        "failed_signals": "Failed Signals",
+        "pending_signals": "Pending Signals",
+        "financial_performance": "Financial Performance",
+        "win_rate": "Win Rate",
+        "avg_profit": "Average Profit",
+        "avg_loss": "Average Loss",
+        "total_pnl": "Total PNL",
+        "by_timeframe": "By Timeframe",
+        "no_data": "No data",
+        "by_strategy": "By Strategy",
+        "strategy_count": "{{count}} signals"
+    },
+    "table": {
+        "title": "TradingView Signals",
+        "subtitle": "Trading signals received from TradingView strategies",
+        "loading": "Loading TradingView signals...",
+        "no_signals": "No Signals",
+        "no_signals_desc": "No signals received from TradingView yet",
+        "columns": {
+            "symbol": "Symbol",
+            "type": "Signal Type",
+            "price": "Price",
+            "stop_loss": "Stop Loss",
+            "take_profit": "Take Profit",
+            "confidence": "Confidence",
+            "strength": "Strength",
+            "strategy": "Strategy",
+            "timeframe": "Timeframe",
+            "status": "Status",
+            "time": "Time",
+            "actions": "Actions"
+        },
+        "status": {
+            "active": "Active",
+            "triggered": "Triggered",
+            "expired": "Expired",
+            "cancelled": "Cancelled"
+        },
+        "actions": {
+            "execute": "Execute",
+            "delete": "Delete"
+        }
+    },
+    "settings": {
+        "general": {
+            "title": "General Settings",
+            "subtitle": "Basic settings for TradingView signals system",
+            "enable": "Enable TradingView Signals",
+            "enable_desc": "Enable receiving signals from TradingView",
+            "webhook_secret": "Webhook Secret",
+            "webhook_secret_placeholder": "Optional - to secure the webhook",
+            "webhook_secret_desc": "Use a strong password to protect your webhook",
+            "min_confidence": "Minimum Confidence (%)",
+            "max_signals": "Max Daily Signals",
+            "auto_trade": "Auto Trading",
+            "auto_trade_desc": "Execute trades automatically when signals are received"
+        },
+        "symbols": {
+            "title": "Allowed Symbols",
+            "subtitle": "Symbols allowed to receive signals (empty = all symbols)",
+            "placeholder": "Example: BTC/USDT"
+        },
+        "strategies": {
+            "title": "Allowed Strategies",
+            "subtitle": "Strategies allowed to receive signals from (empty = all strategies)",
+            "placeholder": "Strategy Name"
+        },
+        "cleanup": {
+            "title": "Auto Cleanup",
+            "subtitle": "Automatically delete old signals by timeframe",
+            "enable": "Enable Auto Cleanup",
+            "enable_desc": "Automatically delete old signals to save database space",
+            "1m": "1 Minute (Days)",
+            "5m": "5 Minutes (Days)",
+            "15m": "15 Minutes (Days)",
+            "1h": "1 Hour (Days)",
+            "4h": "4 Hours (Days)",
+            "1d": "1 Day (Days)",
+            "button": "Cleanup Old Signals Now",
+            "cleaning": "Cleaning up..."
+        },
+        "webhook_info": {
+            "title": "Webhook Information",
+            "subtitle": "Use this link in TradingView alert settings",
+            "footer": "Make sure to add your identifier in the sent data"
+        },
+        "save": "Save Settings",
+        "saving": "Saving..."
+    }
+}

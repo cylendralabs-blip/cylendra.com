@@ -1,0 +1,72 @@
+{
+    "title": "إعدادات منصات التداول",
+    "subtitle": "قم بربط حسابات منصات التداول المختلفة لتمكين التداول الآلي",
+    "tabs": {
+        "manage": "إدارة المفاتيح",
+        "add": "إضافة منصة جديدة"
+    },
+    "manage": {
+        "no_platforms": "لا توجد منصات مربوطة",
+        "no_platforms_desc": "قم بإضافة منصة تداول لتبدأ التداول الآلي",
+        "platforms": {
+            "demo": "شبكة تجريبية",
+            "live": "شبكة حقيقية",
+            "created_at": "تم الإنشاء: {{date}}",
+            "enabled": "مفعل",
+            "disabled": "معطل",
+            "delete": "حذف"
+        },
+        "fields": {
+            "api_key": "API Key",
+            "secret_key": "Secret Key",
+            "passphrase": "Passphrase"
+        }
+    },
+    "add": {
+        "title": "إضافة منصة تداول جديدة",
+        "subtitle": "قم بإدخال بيانات API لربط منصة التداول الخاصة بك",
+        "fields": {
+            "platform": "المنصة",
+            "platform_placeholder": "اختر منصة التداول",
+            "api_key": "API Key",
+            "api_key_placeholder": "أدخل API Key",
+            "secret_key": "Secret Key",
+            "secret_key_placeholder": "أدخل Secret Key",
+            "passphrase": "Passphrase",
+            "passphrase_placeholder": "أدخل Passphrase (مطلوب لهذه المنصة)"
+        },
+        "live_warning": "⚠️ أنت تستخدم الشبكة الحقيقية. تأكد من أن إعدادات API صحيحة وأنك تريد المتابعة.",
+        "security": {
+            "title": "تعليمات الأمان",
+            "instruction_1": "تأكد من تفعيل التداول الفقط (Spot Trading) في إعدادات API",
+            "instruction_2": "لا تشارك مفاتيح API مع أي شخص آخر",
+            "instruction_3": "ابدأ بالشبكة التجريبية لاختبار البوت",
+            "instruction_4": "قم بتعيين حدود للسحب إذا كانت متاحة",
+            "instruction_passphrase": "بالنسبة لـ {{label}}: Passphrase مطلوب للاتصال"
+        },
+        "button": "إضافة مفتاح API",
+        "button_loading": "جاري الإضافة..."
+    },
+    "toast": {
+        "error": "خطأ",
+        "fetch_failed": "فشل في جلب مفاتيح API",
+        "fields_required": "يرجى ملء جميع الحقول المطلوبة",
+        "passphrase_required": "يرجى إدخال Passphrase لهذه المنصة",
+        "must_be_demo": "{{label}} يجب أن يكون في وضع Testnet/Demo",
+        "save_failed": "فشل في حفظ مفتاح API",
+        "connection_error": "خطأ في الاتصال",
+        "connection_failed": "فشل اختبار الاتصال بالمنصة",
+        "invalid_key": "مفتاح API غير صالح",
+        "invalid_key_desc": "فشل اختبار الاتصال بالمنصة. تأكد من صحة المفتاح وصلاحياته (قراءة/تداول).",
+        "success": "تم بنجاح",
+        "connected": "تم ربط المنصة بنجاح",
+        "verified_platform": "تم التحقق من الاتصال بمنصة {{label}}.",
+        "verified": "تم التحقق من الاتصال بالمنصة.",
+        "add_failed": "فشل في إضافة مفتاح API",
+        "deleted": "تم حذف مفتاح API بنجاح",
+        "delete_failed": "فشل في حذف مفتاح API",
+        "enabled": "تم تفعيل مفتاح API",
+        "disabled": "تم إلغاء تفعيل مفتاح API",
+        "update_failed": "فشل في تحديث حالة مفتاح API"
+    }
+}

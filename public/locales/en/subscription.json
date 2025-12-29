@@ -1,0 +1,57 @@
+{
+    "title": "Subscription Management",
+    "subtitle": "View and update your subscription plan",
+    "view_all_plans": "View All Plans",
+    "loading": "Loading subscription information...",
+    "current_plan": {
+        "title": "Your Current Plan",
+        "status": {
+            "active": "Active",
+            "inactive": "Inactive"
+        },
+        "monthly_price": "Monthly Price",
+        "activation_date": "Activation Date",
+        "expiration_date": "Expiration Date",
+        "permanent": "Permanent",
+        "not_specified": "Not Specified"
+    },
+    "features": {
+        "title": "Available Features",
+        "ai_ultra_signals": "AI Ultra Signals",
+        "live_center": "Live Center",
+        "auto_trading": "Auto Trading",
+        "futures": "Futures",
+        "telegram_ai": "Telegram AI",
+        "max_bots": "Max Bots",
+        "unlimited": "∞"
+    },
+    "limits": {
+        "title": "Daily Limits",
+        "ai_signals": "AI Signals",
+        "ai_calls": "AI Calls",
+        "unlimited": "Unlimited"
+    },
+    "upgrade": {
+        "title": "Upgrade Plan",
+        "subtitle": "Upgrade your plan to benefit from additional features",
+        "per_month": "/month",
+        "upgrade_to": "Upgrade to {{plan}}",
+        "renew": "Renew {{plan}}"
+    },
+    "beta": {
+        "title": "🎉 You are in Beta mode:",
+        "description": "All plans are available for free for testing.",
+        "expires": "Beta access expires on {{date}}.",
+        "days_remaining": "({{days}} days remaining)",
+        "after_expiry": "After that, paid plans will become active."
+    },
+    "payment": {
+        "title": "Payment & Renewal",
+        "subtitle": "Renew your subscription or upgrade your plan",
+        "current_method": "Current Payment Method",
+        "beta_free": "Beta Free",
+        "not_specified": "Not Specified",
+        "options_title": "Payment Options",
+        "options_subtitle": "Choose the payment method that suits you"
+    }
+}

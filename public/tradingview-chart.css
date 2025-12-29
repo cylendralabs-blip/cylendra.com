@@ -1,0 +1,47 @@
+
+/* تخصيص شارت TradingView للوضع المظلم والفاتح */
+.tv-lightweight-charts {
+  background: transparent !important;
+}
+
+/* تخصيص الألوان للوضع المظلم */
+.dark .tv-lightweight-charts {
+  background: #1f2937 !important;
+}
+
+.dark .tv-lightweight-charts canvas {
+  background: #1f2937 !important;
+}
+
+/* تخصيص شريط الأدوات */
+.tv-chart-toolbar {
+  background: var(--background) !important;
+  border-bottom: 1px solid var(--border) !important;
+}
+
+/* تخصيص الخطوط والنصوص */
+.tv-chart-legend {
+  color: var(--foreground) !important;
+}
+
+/* تخصيص الأزرار */
+.tv-chart-button {
+  background: var(--background) !important;
+  color: var(--foreground) !important;
+  border: 1px solid var(--border) !important;
+}
+
+.tv-chart-button:hover {
+  background: var(--accent) !important;
+}
+
+/* تحسين التصميم للشاشات الصغيرة */
+@media (max-width: 768px) {
+  .tv-lightweight-charts {
+    height: 400px !important;
+  }
+  
+  .tv-chart-toolbar {
+    padding: 8px !important;
+  }
+}

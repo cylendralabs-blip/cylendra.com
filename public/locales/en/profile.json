@@ -1,0 +1,32 @@
+{
+    "title": "Profile",
+    "subtitle": "Manage your personal information and account settings",
+    "user_card": {
+        "default_user": "User",
+        "advanced_user": "Advanced User",
+        "email": "Email",
+        "join_date": "Join Date",
+        "join_date_val": "January 2024"
+    },
+    "personal_info": {
+        "title": "Personal Information",
+        "subtitle": "Update your personal information here",
+        "edit": "Edit",
+        "cancel": "Cancel",
+        "save": "Save Changes",
+        "fields": {
+            "first_name": "First Name",
+            "first_name_placeholder": "Enter First Name",
+            "last_name": "Last Name",
+            "last_name_placeholder": "Enter Last Name",
+            "phone": "Phone Number",
+            "phone_placeholder": "Enter Phone Number",
+            "bio": "Bio",
+            "bio_placeholder": "Write something about yourself..."
+        }
+    },
+    "toast": {
+        "success": "Saved Successfully",
+        "updated": "Your personal information has been updated"
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "nav": {
+        "home": "Accueil",
+        "strategies": "Stratégies",
+        "exchanges": "Échanges",
+        "pricing": "Tarifs",
+        "about": "À propos",
+        "contact": "Contact",
+        "dashboard": "Tableau de bord",
+        "go_to_dashboard": "Aller au tableau de bord",
+        "sign_in": "Se connecter",
+        "get_started": "Commencer"
+    },
+    "hero": {
+        "badge": "Intelligence de marché propulsée par l'IA",
+        "title_part1": "Tradez plus intelligemment avec",
+        "title_part2": "l'IA de nouvelle génération",
+        "description": "La plateforme de trading propulsée par l'IA la plus avancée. Réseaux neuronaux, bots automatisés et signaux en temps réel pour maximiser vos profits crypto.",
+        "start_trading": "Commencer à trader maintenant",
+        "view_demo": "Voir la démo"
+    },
+    "pricing": {
+        "title": "Choisissez le forfait qui vous convient",
+        "subtitle": "Des forfaits flexibles qui s'adaptent à tous les besoins",
+        "loading": "Chargement des forfaits...",
+        "beta_title": "Vous êtes en mode Beta :",
+        "beta_desc": "Tous les forfaits sont disponibles gratuitement pour test. Aucune carte ou paiement requis pour le moment.",
+        "beta_ends": "L'accès Beta se termine le",
+        "beta_remaining": "{{count}} jours restants",
+        "beta_after": "Après cela, les forfaits payants deviendront actifs.",
+        "current_plan": "Votre forfait actuel",
+        "current_badge": "Actuel",
+        "month": "mois",
+        "features": {
+            "signals": "Signaux AI Ultra",
+            "live": "Centre en direct",
+            "auto": "Trading automatique",
+            "futures": "Trading de Futures",
+            "telegram": "Signaux Telegram AI",
+            "max_bots": "Bots Max"
+        },
+        "limits": {
+            "signals": "Signaux/jour",
+            "ai_calls": "Appels IA/jour"
+        },
+        "buttons": {
+            "subscribe": "S'abonner maintenant",
+            "current": "Forfait actuel",
+            "select": "Sélectionner"
+        },
+        "footer": "Tous les forfaits incluent un support technique et une garantie de remboursement de 30 jours"
+    }
+}

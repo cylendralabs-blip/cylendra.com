@@ -1,0 +1,45 @@
+{
+    "title": "Portfolio",
+    "subtitle": "Comprehensive view of your investment portfolio and performance",
+    "no_data": "No portfolio data",
+    "no_data_desc": "Connect trading platforms and fetch balances to view portfolio data",
+    "overview": {
+        "total_value": "Total Value (USDT)",
+        "usdt_only": "USDT balance only",
+        "today": "today",
+        "today_pnl": "Today's Profit/Loss",
+        "positions_count": "Number of Positions",
+        "active_positions": "active positions",
+        "monthly_performance": "Monthly Performance",
+        "last_30_days": "Last 30 days"
+    },
+    "tabs": {
+        "overview": "Overview",
+        "platforms": "Platform Distribution",
+        "performance": "Performance Analysis"
+    },
+    "positions": {
+        "title": "Current Positions",
+        "subtitle": "List of all your active positions",
+        "no_active": "No active positions",
+        "no_active_desc": "No active trades currently. Start trading to see your positions here.",
+        "status": "Status:",
+        "active": "Active",
+        "pending": "Pending"
+    },
+    "distribution": {
+        "title": "Portfolio Distribution",
+        "subtitle": "Asset distribution by value",
+        "usdt_only_desc": "No other coins besides USDT",
+        "no_data": "No distribution data"
+    },
+    "performance_summary": {
+        "title": "Performance Summary",
+        "subtitle": "Portfolio performance in different periods",
+        "no_data": "No performance data available",
+        "no_data_desc": "Performance data will be displayed after gathering enough portfolio data",
+        "daily": "Daily",
+        "monthly": "Monthly",
+        "note": "Note: Weekly and annual data require gathering data for a longer period"
+    }
+}

@@ -1,0 +1,500 @@
+
+@import url('./components/mobile/mobile-styles.css');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Neutral Colors */
+    --background: 0 0% 95%;           /* #F2F2F2 - Light backgrounds */
+    --foreground: 210 28% 18%;        /* #1F2A37 - Dark text */
+
+    --card: 0 0% 100%;                 /* White cards */
+    --card-foreground: 210 28% 18%;    /* #1F2A37 - Dark text */
+
+    --popover: 0 0% 100%;              /* White popovers */
+    --popover-foreground: 210 28% 18%; /* #1F2A37 - Dark text */
+
+    /* Primary Color - #448AA6 */
+    --primary: 197 42% 45%;           /* #448AA6 - Primary Blue */
+    --primary-foreground: 0 0% 100%;  /* White text on primary */
+
+    /* Secondary Color - #84A9BF */
+    --secondary: 201 32% 64%;         /* #84A9BF - Secondary Blue */
+    --secondary-foreground: 210 28% 18%; /* #1F2A37 - Dark text */
+
+    /* Muted Colors */
+    --muted: 0 0% 95%;                 /* #F2F2F2 - Light gray */
+    --muted-foreground: 210 20% 45%;   /* Medium gray text */
+
+    /* Accent Color - #6EE7D8 (Mint/Turquoise) */
+    --accent: 170 65% 70%;             /* #6EE7D8 - Mint/Turquoise */
+    --accent-foreground: 210 28% 18%;  /* #1F2A37 - Dark text */
+
+    /* Pink/Secondary Accent - #F2BBB6 (used sparingly) */
+    --pink: 8 60% 83%;                 /* #F2BBB6 - Logo Pink */
+
+    --destructive: 0 84.2% 60.2%;      /* Red for errors */
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 0 0% 90%;                /* Light borders */
+    --input: 0 0% 90%;                 /* Light input borders */
+    --ring: 197 42% 45%;               /* #448AA6 - Primary blue for focus rings */
+
+    --radius: 0.5rem;
+    
+    /* Orbitra AI™ Brand Colors - Updated to match logo */
+    --brand-primary: 197 42% 45%;     /* #448AA6 - Primary Blue */
+    --brand-secondary: 201 32% 64%;    /* #84A9BF - Secondary Blue */
+    --brand-pink: 8 60% 83%;           /* #F2BBB6 - Logo Pink */
+    --brand-accent: 170 65% 70%;       /* #6EE7D8 - Mint/Turquoise */
+    --brand-neutral-light: 0 0% 95%;     /* #F2F2F2 - Light backgrounds */
+    --brand-neutral-dark: 210 28% 18%; /* #1F2A37 - Dark text */
+    
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(197 42% 45%), hsl(201 32% 64%), hsl(170 65% 70%));
+    --gradient-secondary: linear-gradient(90deg, hsl(197 42% 45%), hsl(201 32% 64%));
+    
+    /* Sidebar Colors - Pink for active items */
+    --sidebar-accent: 8 60% 83%;           /* #F2BBB6 - Pink for active sidebar items */
+    --sidebar-accent-foreground: 210 28% 18%; /* #1F2A37 - Dark text on pink */
+  }
+
+  .dark {
+    /* Dark Mode - Using brand colors with darker backgrounds */
+    --background: 210 28% 12%;        /* Darker version of #1F2A37 */
+    --foreground: 0 0% 95%;           /* #F2F2F2 - Light text */
+
+    --card: 210 28% 15%;              /* Slightly lighter than background */
+    --card-foreground: 0 0% 95%;      /* #F2F2F2 - Light text */
+
+    --popover: 210 28% 15%;           /* Same as card */
+    --popover-foreground: 0 0% 95%;   /* #F2F2F2 - Light text */
+
+    /* Primary - Slightly brighter in dark mode */
+    --primary: 197 42% 55%;           /* #448AA6 - Brighter for dark mode */
+    --primary-foreground: 0 0% 100%;  /* White text */
+
+    /* Secondary - Brighter in dark mode */
+    --secondary: 201 32% 70%;         /* #84A9BF - Brighter for dark mode */
+    --secondary-foreground: 0 0% 100%; /* White text */
+
+    --muted: 210 28% 18%;             /* #1F2A37 - Dark gray */
+    --muted-foreground: 210 20% 65%;  /* Medium gray text */
+
+    /* Accent - Brighter in dark mode */
+    --accent: 170 65% 75%;             /* #6EE7D8 - Brighter mint */
+    --accent-foreground: 210 28% 12%; /* Dark background */
+
+    /* Pink - Slightly brighter in dark mode */
+    --pink: 8 60% 88%;                /* #F2BBB6 - Brighter pink */
+
+    --destructive: 0 72% 51%;          /* Red for errors */
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 210 28% 20%;             /* Dark borders */
+    --input: 210 28% 20%;              /* Dark input borders */
+    --ring: 197 42% 55%;               /* #448AA6 - Primary blue for focus */
+    
+    /* Brand Colors - Dark Mode (brighter versions) */
+    --brand-primary: 197 42% 55%;      /* Brighter primary */
+    --brand-secondary: 201 32% 70%;    /* Brighter secondary */
+    --brand-pink: 8 60% 88%;          /* Brighter pink */
+    --brand-accent: 170 65% 75%;       /* Brighter mint */
+    --brand-neutral-light: 0 0% 95%;   /* #F2F2F2 - Light text */
+    --brand-neutral-dark: 210 28% 12%; /* Dark background */
+    
+    /* Sidebar Colors - Dark Mode */
+    --sidebar-accent: 8 60% 88%;       /* #F2BBB6 - Brighter pink for dark mode */
+    --sidebar-accent-foreground: 210 28% 12%; /* Dark text on pink */
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border transition-colors duration-300;
+  }
+
+  @keyframes ticker {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  .animate-ticker {
+    animation: ticker 30s linear infinite;
+  }
+
+  .animate-ticker:hover {
+    animation-play-state: paused;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+  }
+
+  /* Global link hover effects with pink */
+  a:not(.no-hover-pink):hover {
+    color: #F2BBB6;
+    transition: color 0.2s ease-in-out;
+  }
+
+  /* Button hover effects with pink */
+  button:not(.no-hover-pink):not(:disabled):hover {
+    transition: all 0.2s ease-in-out;
+  }
+  button[class*="primary"]:not(:disabled):hover,
+  button.btn-primary:not(:disabled):hover {
+    background-color: #F2BBB6 !important;
+    border-color: #F2BBB6 !important;
+  }
+
+  /* تأكد من أن الوضع المظلم يعمل بشكل صحيح */
+  html.dark {
+    color-scheme: dark;
+  }
+
+  html:not(.dark) {
+    color-scheme: light;
+  }
+
+  /* تحسين التمرير */
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* تحسين الخطوط */
+  body {
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+/* تحسينات للقائمة الجانبية */
+@layer components {
+  .sidebar-item {
+    @apply flex items-center px-4 py-3 text-sm font-medium rounded-lg transition-all duration-300 ease-in-out;
+  }
+  
+  /* العناصر النشطة في القائمة الجانبية - اللون الوردي الثابت فقط للعناصر النشطة */
+  .sidebar-item-active {
+    background-color: #F2BBB6 !important;
+    color: #1F2A37 !important;
+    font-weight: 600;
+  }
+  
+  /* استهداف العناصر النشطة باستخدام data attributes لتجنب تضارب التنسيق */
+  nav a[data-active="true"],
+  nav button[data-active="true"] {
+    background-color: #F2BBB6 !important;
+    color: #1F2A37 !important;
+    font-weight: 600;
+  }
+
+  .dark nav a[data-active="true"],
+  .dark nav button[data-active="true"] {
+    background-color: #F2BBB6 !important;
+    color: #1F2A37 !important;
+  }
+  
+  /* العناصر غير النشطة */
+  nav a:not([data-active="true"]),
+  nav button:not([data-active="true"]) {
+    color: hsl(var(--muted-foreground));
+    background-color: transparent;
+  }
+
+  .dark nav a:not([data-active="true"]),
+  .dark nav button:not([data-active="true"]) {
+    color: hsl(var(--muted-foreground));
+    background-color: transparent;
+  }
+  
+  /* الهوفر للعناصر غير النشطة */
+  nav a:not([data-active="true"]):hover,
+  nav button:not([data-active="true"]):hover {
+    background-color: hsl(var(--muted)) !important;
+    color: hsl(var(--muted-foreground)) !important;
+    opacity: 0.8;
+  }
+  
+  .dark nav a:not([data-active="true"]):hover,
+  .dark nav button:not([data-active="true"]):hover {
+    background-color: hsl(var(--muted)) !important;
+    color: hsl(var(--muted-foreground)) !important;
+    opacity: 0.9;
+  }
+  
+  /* استهداف العناصر في ScrollArea */
+  [class*="ScrollArea"] nav a[data-active="true"] {
+    background-color: #F2BBB6 !important;
+    color: #1F2A37 !important;
+    font-weight: 600;
+  }
+  
+  .dark [class*="ScrollArea"] nav a[data-active="true"] {
+    background-color: #F2BBB6 !important;
+    color: #1F2A37 !important;
+  }
+
+  /* مكونات التداول */
+  .trading-card {
+    @apply bg-card border border-border rounded-lg shadow-trading hover:shadow-trading-lg transition-shadow duration-200 ease-in-out;
+  }
+
+  .trading-button {
+    @apply inline-flex items-center justify-center rounded-md text-sm font-medium transition-all duration-200 ease-in-out focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50;
+  }
+  .trading-button:hover:not(:disabled) {
+    color: #F2BBB6;
+    /* إزالة scale لتجنب التداخل */
+  }
+  .trading-button:active:not(:disabled) {
+    opacity: 0.8;
+  }
+
+  .trading-input {
+    @apply flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 transition-all duration-200 ease-in-out focus:scale-[1.02];
+  }
+
+  /* رسوم متحركة للأيقونات */
+  .icon-interactive {
+    @apply transition-all duration-200 ease-in-out hover:scale-110 cursor-pointer;
+  }
+  .icon-interactive:hover {
+    color: #F2BBB6;
+  }
+  .dark .icon-interactive:hover {
+    color: #F2BBB6;
+  }
+
+  .icon-bounce {
+    @apply hover:animate-bounce-subtle;
+  }
+
+  .icon-glow {
+    @apply hover:drop-shadow-[0_0_6px_rgba(242,187,182,0.6)] hover:text-pink-500 dark:hover:text-pink-400;
+  }
+
+  /* تأثيرات الخلفية */
+  .bg-gradient-trading {
+    @apply bg-gradient-to-br from-primary-50 via-secondary-50 to-accent-50 dark:from-primary-900 dark:via-secondary-900 dark:to-accent-900;
+  }
+
+  .bg-glass {
+    @apply bg-white/80 dark:bg-gray-900/80 backdrop-blur-md border border-white/20 dark:border-gray-700/20;
+  }
+
+  /* تحسينات للبطاقات */
+  .card-hover {
+    @apply transition-all duration-300 ease-in-out;
+  }
+  .card-hover:hover {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    /* تقليل الحركة - فقط shadow خفيف بدون scale أو translate */
+    border-color: #F2BBB6;
+    /* إزالة الضبابية من المحتوى عند hover */
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+  }
+  .dark .card-hover:hover {
+    border-color: #F2BBB6;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+  }
+
+  .card-glow {
+    @apply transition-all duration-300 ease-in-out;
+  }
+  .card-glow:hover {
+    box-shadow: 0 0 20px rgba(242, 187, 182, 0.4);
+    border-color: #F2BBB6;
+  }
+  .dark .card-glow:hover {
+    border-color: #F2BBB6;
+  }
+
+  /* تحسينات للأزرار */
+  .btn-primary {
+    @apply text-white shadow-lg transition-all duration-200 ease-in-out;
+    background: linear-gradient(to right, #448AA6, #367085);
+  }
+  .btn-primary:hover {
+    background: linear-gradient(to right, #F2BBB6, #e0a8a3);
+    box-shadow: 0 0 20px rgba(242, 187, 182, 0.5);
+    transform: scale(1.05);
+  }
+  .btn-primary:active {
+    transform: scale(0.95);
+  }
+
+  .btn-success {
+    @apply bg-gradient-to-r from-trading-success-500 to-trading-success-600 hover:from-trading-success-600 hover:to-trading-success-700 text-white shadow-lg hover:shadow-xl transition-all duration-200 ease-in-out hover:scale-105 active:scale-95;
+  }
+
+  .btn-danger {
+    @apply bg-gradient-to-r from-trading-danger-500 to-trading-danger-600 hover:from-trading-danger-600 hover:to-trading-danger-700 text-white shadow-lg hover:shadow-xl transition-all duration-200 ease-in-out hover:scale-105 active:scale-95;
+  }
+
+  /* تحسينات للحالات */
+  .status-success {
+    @apply bg-trading-success-100 text-trading-success-800 border border-trading-success-200 dark:bg-trading-success-900 dark:text-trading-success-100 dark:border-trading-success-800;
+  }
+
+  .status-danger {
+    @apply bg-trading-danger-100 text-trading-danger-800 border border-trading-danger-200 dark:bg-trading-danger-900 dark:text-trading-danger-100 dark:border-trading-danger-800;
+  }
+
+  .status-warning {
+    @apply bg-trading-warning-100 text-trading-warning-800 border border-trading-warning-200 dark:bg-trading-warning-900 dark:text-trading-warning-100 dark:border-trading-warning-800;
+  }
+
+  .status-info {
+    @apply bg-trading-info-100 text-trading-info-800 border border-trading-info-200 dark:bg-trading-info-900 dark:text-trading-info-100 dark:border-trading-info-800;
+  }
+
+  /* تحسينات خاصة بالموبايل */
+  @media (max-width: 768px) {
+    .mobile-optimized {
+      @apply px-3 py-2;
+    }
+    
+    .mobile-grid {
+      @apply grid-cols-1 gap-3;
+    }
+    
+    .mobile-text {
+      @apply text-sm;
+    }
+    
+    .mobile-button {
+      @apply min-h-[44px] text-base;
+    }
+    
+    .mobile-card {
+      @apply p-4 shadow-sm;
+    }
+  }
+}
+
+/* رسوم متحركة خاصة */
+@keyframes fadeInScale {
+  from {
+    opacity: 0;
+    transform: scale(0.9) translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+@keyframes slideInFromRight {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes floatUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* تطبيق الرسوم المتحركة */
+.animate-fade-in-scale {
+  animation: fadeInScale 0.4s ease-out;
+}
+
+.animate-slide-in-right {
+  animation: slideInFromRight 0.3s ease-out;
+}
+
+.animate-float-up {
+  animation: floatUp 0.5s ease-out;
+}
+
+/* تحسينات للموبايل */
+@media (max-width: 768px) {
+  .trading-card {
+    @apply hover:scale-100;
+  }
+  
+  .card-hover {
+    @apply hover:-translate-y-0 hover:scale-100;
+  }
+  
+  /* إزالة التأثيرات المعقدة على الموبايل */
+  .mobile-simple {
+    @apply transform-none hover:transform-none;
+  }
+  
+  /* تحسين الأزرار للمس */
+  button {
+    @apply min-h-[44px] min-w-[44px];
+  }
+}
+
+/* تحسينات للفوكس */
+.focus-ring {
+  @apply focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 focus:ring-offset-background;
+}
+.focus-ring:hover {
+  --tw-ring-color: #F2BBB6;
+}
+
+/* تحسينات للانتقالات */
+.transition-smooth {
+  @apply transition-all duration-300 ease-in-out;
+}
+
+.transition-fast {
+  @apply transition-all duration-150 ease-in-out;
+}
+
+/* Pink Hover Utilities - Global hover effects */
+@layer utilities {
+  .hover-pink {
+    @apply transition-colors duration-200;
+  }
+  .hover-pink:hover {
+    color: #F2BBB6;
+  }
+  
+  .hover-bg-pink {
+    @apply transition-colors duration-200;
+  }
+  .hover-bg-pink:hover {
+    background-color: rgba(242, 187, 182, 0.1);
+  }
+  .dark .hover-bg-pink:hover {
+    background-color: rgba(242, 187, 182, 0.2);
+  }
+  
+  .hover-border-pink {
+    @apply transition-colors duration-200;
+  }
+  .hover-border-pink:hover {
+    border-color: #F2BBB6;
+  }
+  
+  .hover-shadow-pink {
+    @apply transition-shadow duration-200;
+  }
+  .hover-shadow-pink:hover {
+    box-shadow: 0 0 20px rgba(242, 187, 182, 0.4);
+  }
+}

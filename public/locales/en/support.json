@@ -1,0 +1,42 @@
+{
+    "metrics": {
+        "title": "Support Metrics",
+        "subtitle": "Support team performance analytics (last 30 days)",
+        "kpis": {
+            "open_tickets": "Open Tickets",
+            "avg_response_time": "Avg Response Time",
+            "avg_resolution_time": "Avg Resolution Time",
+            "hours": "hours",
+            "sla_breaches": "SLA Breaches"
+        },
+        "charts": {
+            "by_category": "Tickets by Category",
+            "by_priority": "Tickets by Priority",
+            "no_data": "No data available"
+        },
+        "stats": {
+            "reopened": "Tickets Reopened",
+            "closed_today": "Tickets Closed Today",
+            "resolution_rate": "Resolution Rate",
+            "per_day": "tickets/day"
+        },
+        "errors": {
+            "title": "Error",
+            "failed_to_load": "Failed to load metrics"
+        },
+        "no_data_available": "No data available"
+    },
+    "user_dashboard": {
+        "title": "User Support Dashboard",
+        "back": "Back",
+        "user_id": "User ID: {{userId}}",
+        "id_not_provided": "User ID not provided",
+        "tabs": {
+            "timeline": "Timeline",
+            "errors": "Errors",
+            "api_health": "API Health",
+            "actions": "Support Actions",
+            "notes": "Notes"
+        }
+    }
+}

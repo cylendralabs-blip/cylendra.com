@@ -1,0 +1,43 @@
+{
+    "title": "تاريخ الصفقات التلقائية",
+    "subtitle": "عرض شامل لجميع قرارات التداول التلقائي مع سجلات تفصيلية",
+    "filters": {
+        "title": "الفلاتر",
+        "status": "الحالة",
+        "source": "مصدر الإشارة",
+        "direction": "الاتجاه",
+        "search_pair": "البحث بالزوج",
+        "date_from": "من تاريخ",
+        "date_to": "إلى تاريخ",
+        "select_date": "اختر التاريخ",
+        "clear_filters": "مسح الفلاتر",
+        "all": "الكل",
+        "status_values": {
+            "accepted": "مقبول",
+            "rejected": "مرفوض",
+            "error": "خطأ",
+            "pending": "قيد الانتظار"
+        },
+        "direction_values": {
+            "long": "شراء",
+            "short": "بيع"
+        }
+    },
+    "stats": {
+        "total_trades": "إجمالي الصفقات",
+        "accepted": "مقبول",
+        "rejected": "مرفوض",
+        "error": "خطأ"
+    },
+    "table": {
+        "title": "الصفقات التلقائية",
+        "date": "التاريخ",
+        "pair": "الزوج",
+        "direction": "الاتجاه",
+        "source": "المصدر",
+        "status": "الحالة",
+        "reason": "السبب",
+        "loading": "جاري التحميل...",
+        "no_trades": "لا توجد صفقات تلقائية"
+    }
+}

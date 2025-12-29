@@ -1,0 +1,129 @@
+{
+    "live": {
+        "title": "الإشارات الذكية الحية",
+        "subtitle": "متابعة الإشارات عالية الثقة لحظياً مع تحكم كامل بالفلاتر والتحليل.",
+        "badge": "مباشر",
+        "connected": "متصل بالزمن الحقيقي",
+        "connecting": "جارٍ الاتصال...",
+        "reset_filters": "إعادة تعيين الفلاتر",
+        "toast": {
+            "strong_signal": "إشارة {{side}} قوية وصلت الآن ({{confidence}}% ثقة)"
+        }
+    },
+    "history": {
+        "title": "سجل الإشارات المتقدمة",
+        "subtitle": "عرض وتحليل الإشارات السابقة مع إحصائيات مفصلة",
+        "badge": "السجل",
+        "total_signals_desc": "إجمالي {{count}} إشارة في السجل",
+        "no_signals_desc": "لا توجد إشارات في السجل",
+        "loading_signals": "جاري تحميل الإشارات...",
+        "no_results": "لا توجد إشارات تطابق الفلاتر المحددة. جرب تغيير الفلاتر أو نطاق التاريخ.",
+        "load_more": "تحميل المزيد",
+        "loading_more": "جاري التحميل...",
+        "showing_results": "عرض {{current}} من {{total}} إشارة",
+        "error_loading": "حدث خطأ أثناء تحميل الإشارات. يرجى المحاولة مرة أخرى."
+    },
+    "common": {
+        "filters": {
+            "title": "الفلاتر",
+            "symbol": "الرمز",
+            "all_symbols": "جميع الرموز",
+            "timeframe": "الإطار الزمني",
+            "all_timeframes": "جميع الإطارات",
+            "side": "الاتجاه",
+            "all_sides": "جميع الاتجاهات",
+            "buy": "شراء",
+            "sell": "بيع",
+            "wait": "انتظار",
+            "min_confidence": "الحد الأدنى للثقة",
+            "strong_only": "الإشارات القوية فقط",
+            "date_range": "نطاق التاريخ",
+            "start_date": "تاريخ البدء",
+            "end_date": "تاريخ الانتهاء",
+            "reset": "إعادة تعيين الفلاتر"
+        },
+        "summary": {
+            "total_signals": "إجمالي الإشارات",
+            "buy_signals": "إشارات الشراء",
+            "sell_signals": "إشارات البيع",
+            "strong_signals": "الإشارات القوية",
+            "avg_confidence": "متوسط الثقة",
+            "avg_rr": "متوسط RR",
+            "realtime_status": "حالة البث اللحظي",
+            "last_updated": "آخر تحديث",
+            "connected": "متصل لحظيًا",
+            "reconnecting": "إعادة الاتصال..."
+        },
+        "table": {
+            "symbol": "الرمز",
+            "timeframe": "الإطار",
+            "side": "الاتجاه",
+            "confidence": "الثقة",
+            "price": "السعر",
+            "tp_sl": "TP / Target / SL",
+            "status": "الحالة",
+            "time": "الوقت",
+            "actions": "إجراءات",
+            "view_details": "عرض التفاصيل",
+            "entry_target_sl": "الدخول / الهدف / وقف",
+            "risk": "المخاطرة",
+            "rr": "RR",
+            "success_prob": "احتمال النجاح",
+            "expected_return": "العائد المتوقع",
+            "forecast": "التنبؤ",
+            "loading_live": "جاري تحميل الإشارات الحية...",
+            "no_signals": "لا توجد إشارات حية حالياً. سيتم عرض الإشارات هنا فور وصولها.",
+            "entry": "دخول",
+            "target": "هدف",
+            "stop": "وقف",
+            "high": "عالي",
+            "medium": "متوسط",
+            "low": "منخفض"
+        },
+        "details": {
+            "title": "تحليل الإشارة",
+            "description": "تحليل فني وشامل مدعوم بالذكاء الاصطناعي",
+            "metrics": {
+                "technical": "التقييم الفني",
+                "ai": "توقع الذكاء الاصطناعي",
+                "volume": "تقييم السيولة",
+                "risk_reward": "العائد للمخاطرة",
+                "final_confidence": "الثقة النهائية",
+                "risk_level": "مستوى المخاطرة",
+                "entry": "الدخول",
+                "target": "الهدف",
+                "stop_loss": "وقف الخسارة",
+                "rr_ratio": "نسبة RR",
+                "technical_score": "المؤشرات التقنية",
+                "volume_score": "تحليل الحجم",
+                "pattern_score": "تحليل الأنماط",
+                "wave_score": "تحليل الموجات",
+                "sentiment_score": "تحليل المشاعر",
+                "ai_score": "درجة الذكاء الاصطناعي"
+            },
+            "indicators": "المؤشرات الأساسية",
+            "reasoning": "تحليل الذكاء الاصطناعي",
+            "management": "إدارة الصفقة",
+            "sources_used": "المصادر المستخدمة",
+            "sources": {
+                "ai_analyzer": "تحليل AI",
+                "tv_webhook": "TradingView",
+                "legacy_engine": "المحرك الحالي",
+                "manual": "يدوي"
+            },
+            "reasoning_title": "أسباب الإشارة",
+            "forecast": {
+                "title": "التنبؤ بالنتيجة",
+                "success_probability": "احتمال النجاح",
+                "classification": "التصنيف",
+                "expected_return": "العائد المتوقع",
+                "expected_duration": "المدة المتوقعة",
+                "risk_adjusted_score": "النتيجة المعدلة للمخاطر",
+                "sample_size": "حجم العينة",
+                "duration_value": "{{minutes}} دقيقة",
+                "sample_size_value": "{{count}} إشارة مشابهة",
+                "forecast_desc": "يعتمد التنبؤ على {{count}} إشارة مشابهة في السجل التاريخي"
+            }
+        }
+    }
+}

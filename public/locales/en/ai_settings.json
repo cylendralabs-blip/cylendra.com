@@ -1,0 +1,155 @@
+{
+    "settings": {
+        "title": "Advanced Indicator Settings",
+        "subtitle": "Full control over indicators, sensitivity, analysis sources for each timeframe.",
+        "smart_mode": "Smart Default Mode",
+        "custom_mode": "Custom Mode",
+        "smart_default": "Smart Default",
+        "reset_defaults": "Reset Defaults",
+        "save_settings": "Save Settings",
+        "timeframe_card": {
+            "title": "Choose Timeframe",
+            "subtitle": "Each timeframe can be customized with independent settings",
+            "placeholder": "Choose timeframe"
+        },
+        "tabs": {
+            "indicators": "Indicators",
+            "filters": "Sensitivity & Filters",
+            "sources": "Analysis Sources"
+        },
+        "indicators": {
+            "technical": {
+                "label": "Technical Indicators",
+                "description": "RSI, MACD, EMA, ATR, ADX",
+                "params": {
+                    "rsiLength": "RSI Length",
+                    "macdFast": "MACD Fast",
+                    "macdSlow": "MACD Slow",
+                    "macdSignal": "MACD Signal",
+                    "atrPeriod": "ATR Period",
+                    "adxPeriod": "ADX Period"
+                }
+            },
+            "volume": {
+                "label": "Volume & Liquidity Analysis",
+                "description": "Volume Delta, Spike Detection",
+                "params": {
+                    "lookback": "Lookback",
+                    "spikeMultiplier": "Spike Multiplier",
+                    "deltaMin": "Delta Min"
+                }
+            },
+            "patterns": {
+                "label": "Price Patterns",
+                "description": "Triangles, Flags, H&S"
+            },
+            "elliott": {
+                "label": "Elliott Wave Analysis",
+                "description": "Wave 1-5, ABC correction"
+            },
+            "sentiment": {
+                "label": "Sentiment Analysis",
+                "description": "Fear & Greed, Funding Rate, Social",
+                "params": {
+                    "minScore": "Minimum Sentiment Score"
+                }
+            },
+            "aiFusion": {
+                "label": "AI Layer",
+                "description": "Auto-fusion of results"
+            },
+            "wave": {
+                "label": "Dynamic Wave Detection",
+                "description": "Additional confirmation for Elliott signals"
+            },
+            "candlePatterns": {
+                "label": "Candlestick Patterns",
+                "description": "Engulfing, Doji, Pinbar, ..."
+            }
+        },
+        "filters": {
+            "title": "Sensitivity & Filters",
+            "description": "Determines the strength of confirmation required to generate a signal.",
+            "sensitivity_label": "Sensitivity Level",
+            "sensitivity_placeholder": "Choose sensitivity",
+            "sensitivity_low": "Low - Fewer but stronger signals",
+            "sensitivity_medium": "Medium - Balanced",
+            "sensitivity_high": "High - More signals",
+            "min_confidence_label": "Minimum Confidence",
+            "min_confidence_desc": "If confidence falls below this threshold, the signal will be ignored.",
+            "bias_mode_label": "Bias Mode",
+            "bias_mode_placeholder": "Choose mode",
+            "bias_mode_auto": "Auto Bias (Recommended)",
+            "bias_mode_breakout": "Breakout Mode",
+            "bias_mode_reversal": "Reversal Mode",
+            "fusion_model_label": "Fusion Model",
+            "fusion_model_placeholder": "Choose model",
+            "fusion_model_hybrid": "Hybrid Fusion",
+            "fusion_model_technical": "Technical Heavy",
+            "fusion_model_sentiment": "Sentiment Heavy"
+        },
+        "sources": {
+            "title": "Analysis Sources",
+            "description": "Control the sources integrated by the system when building signals.",
+            "ai_analysis": "AI Analysis",
+            "tv_signals": "TradingView Signals",
+            "legacy_engine": "Legacy Engine",
+            "include_source_desc": "Include this source in fusion"
+        },
+        "timeframe_labels": {
+            "global": "Global Mode",
+            "1m": "1m",
+            "5m": "5m",
+            "15m": "15m",
+            "1h": "1h",
+            "4h": "4h",
+            "1d": "1D"
+        },
+        "toast": {
+            "saved_title": "Saved",
+            "saved_desc": "Indicator settings updated successfully.",
+            "save_failed_title": "Save Failed",
+            "save_failed_desc": "An error occurred while saving settings.",
+            "reset_title": "Defaults Restored",
+            "reset_desc": "Smart Default Mode activated.",
+            "reset_failed_title": "Reset Error",
+            "reset_failed_desc": "Could not restore default mode."
+        }
+    },
+    "weights": {
+        "title": "Indicator Weights Editor",
+        "subtitle": "Distribute importance between technical, volume, wave, sentiment, and AI analysis.",
+        "total_weight": "Total Weights",
+        "reset_weights": "Reset Weights",
+        "save_weights": "Save Weights",
+        "timeframe_label": "Timeframe",
+        "timeframe_desc": "Choose the timeframe to edit its weights.",
+        "total_sum_label": "Total Weights: {{total}}%",
+        "presets_title": "Ready-to-use Presets",
+        "presets_desc": "Choose a quick preset as a starting point then customize as you wish.",
+        "weights_title": "Indicator Weights",
+        "weights_desc": "Ensure the sum of numbers = 100%",
+        "invalid_sum_title": "Incorrect Total",
+        "invalid_sum_desc": "Weights must equal 100%.",
+        "toast": {
+            "saved_title": "Saved",
+            "saved_desc": "Indicator weights updated successfully.",
+            "save_failed_title": "Save Failed",
+            "save_failed_desc": "An error occurred while saving weights."
+        },
+        "presets": {
+            "balanced": "Balanced",
+            "momentum": "Momentum",
+            "sentiment": "Sentiment",
+            "conservative": "Conservative"
+        },
+        "fields": {
+            "technical": "Technical",
+            "volume": "Volume",
+            "patterns": "Patterns",
+            "elliott": "Elliott",
+            "sentiment": "Sentiment",
+            "aiFusion": "AI Fusion"
+        }
+    }
+}

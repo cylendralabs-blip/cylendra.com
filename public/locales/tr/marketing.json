@@ -1,0 +1,53 @@
+{
+    "nav": {
+        "home": "Başlangıç",
+        "strategies": "Stratejiler",
+        "exchanges": "Borsalar",
+        "pricing": "Fiyatlandırma",
+        "about": "Hakkımızda",
+        "contact": "İletişim",
+        "dashboard": "Panel",
+        "go_to_dashboard": "Panele Git",
+        "sign_in": "Giriş Yap",
+        "get_started": "Başlayın"
+    },
+    "hero": {
+        "badge": "Yapay Zeka Destekli Piyasa İstihbaratı",
+        "title_part1": "Daha Akıllı Ticaret",
+        "title_part2": "Yeni Nesil Yapay Zeka",
+        "description": "En gelişmiş yapay zeka destekli ticaret platformu. Kripto kârınızı maksimize etmek için sinir ağları, otomatik botlar ve gerçek zamanlı sinyaller.",
+        "start_trading": "Hemen Ticarete Başlayın",
+        "view_demo": "Demoyu Görüntüle"
+    },
+    "pricing": {
+        "title": "Size Uygun Planı Seçin",
+        "subtitle": "Tüm ticaret ihtiyaçlarına uygun esnek planlar",
+        "loading": "Planlar yükleniyor...",
+        "beta_title": "Beta modundasınız:",
+        "beta_desc": "Tüm planlar test için ücretsiz olarak mevcuttur. Şu an kart veya ödeme gerekmez.",
+        "beta_ends": "Beta erişimi şu tarihte sona eriyor:",
+        "beta_remaining": "{{count}} gün kaldı",
+        "beta_after": "Bundan sonra ücretli planlar aktif olacaktır.",
+        "current_plan": "Mevcut planınız",
+        "current_badge": "Mevcut",
+        "month": "ay",
+        "features": {
+            "signals": "AI Ultra Sinyalleri",
+            "live": "Canlı Merkez",
+            "auto": "Otomatik Ticaret",
+            "futures": "Vadeli İşlemler",
+            "telegram": "Telegram AI Sinyalleri",
+            "max_bots": "Maksimum Bot"
+        },
+        "limits": {
+            "signals": "Sinyal/gün",
+            "ai_calls": "AI Çağrısı/gün"
+        },
+        "buttons": {
+            "subscribe": "Hemen Abone Ol",
+            "current": "Mevcut Plan",
+            "select": "Seç"
+        },
+        "footer": "Tüm planlar teknik destek ve 30 günlük para iade garantisi içerir"
+    }
+}

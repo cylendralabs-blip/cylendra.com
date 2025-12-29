@@ -1,0 +1,53 @@
+{
+    "nav": {
+        "home": "Beranda",
+        "strategies": "Strategi",
+        "exchanges": "Bursa",
+        "pricing": "Harga",
+        "about": "Tentang",
+        "contact": "Kontak",
+        "dashboard": "Dasbor",
+        "go_to_dashboard": "Buka Dasbor",
+        "sign_in": "Masuk",
+        "get_started": "Mulai"
+    },
+    "hero": {
+        "badge": "Kecerdasan Pasar Berbasis AI",
+        "title_part1": "Berdagang Lebih Cerdas dengan",
+        "title_part2": "AI Generasi Baru",
+        "description": "Platform trading berbasis AI tercanggih. Jaringan saraf, bot otomatis, dan sinyal real-time untuk memaksimalkan keuntungan kripto Anda.",
+        "start_trading": "Mulai Trading Sekarang",
+        "view_demo": "Lihat Demo"
+    },
+    "pricing": {
+        "title": "Pilih Paket yang Tepat untuk Anda",
+        "subtitle": "Paket fleksibel yang sesuai dengan semua kebutuhan trading",
+        "loading": "Memuat paket...",
+        "beta_title": "Anda dalam mode Beta:",
+        "beta_desc": "Semua paket tersedia gratis untuk pengujian. Tidak perlu kartu atau pembayaran sekarang.",
+        "beta_ends": "Akses Beta berakhir pada",
+        "beta_remaining": "tersisa {{count}} hari",
+        "beta_after": "Setelah itu, paket berbayar akan menjadi aktif.",
+        "current_plan": "Paket Anda saat ini",
+        "current_badge": "Saat Ini",
+        "month": "bulan",
+        "features": {
+            "signals": "Sinyal AI Ultra",
+            "live": "Live Center",
+            "auto": "Trading Otomatis",
+            "futures": "Trading Futures",
+            "telegram": "Sinyal Telegram AI",
+            "max_bots": "Maksimal Bot"
+        },
+        "limits": {
+            "signals": "Sinyal/hari",
+            "ai_calls": "Panggilan IA/hari"
+        },
+        "buttons": {
+            "subscribe": "Berlangganan Sekarang",
+            "current": "Paket Saat Ini",
+            "select": "Pilih"
+        },
+        "footer": "Semua paket mencakup dukungan teknis dan jaminan uang kembali 30 hari"
+    }
+}

@@ -1,0 +1,100 @@
+{
+    "title": "डैशबोर्ड",
+    "welcome": "Orbitra AI™ में आपका स्वागत है",
+    "metrics": {
+        "total_equity": "कुल इक्विटी",
+        "daily_pnl": "दैनिक PnL",
+        "unrealized_pnl": "अनियंत्रित PnL",
+        "exposure": "एक्सपोजर",
+        "no_data": "कोई पोर्टफोलियो डेटा उपलब्ध नहीं है",
+        "error": "त्रुटि: {{error}}"
+    },
+    "bot_control": {
+        "title": "बॉट नियंत्रण",
+        "cannot_start": "बॉट शुरू नहीं किया जा सकता",
+        "check_settings": "सेटिंग्स जांचें",
+        "risk_updated": "जोखिम स्तर अपडेट किया गया",
+        "risk_updated_desc": "नया जोखिम स्तर: {{value}}%",
+        "error_title": "त्रुटि",
+        "risk_update_error": "जोखिम स्तर अपडेट करने में त्रुटि",
+        "press_to_stop": "बॉट रोकने के लिए दबाएं",
+        "press_to_start": "बॉट शुरू करने के लिए दबाएं",
+        "strategy_label": "रणनीति: {{name}} v{{version}}",
+        "view_all_trades": "सभी ट्रेड देखें",
+        "advanced_settings": "उन्नत सेटिंग्स",
+        "risk_level": "जोखिम स्तर"
+    },
+    "performance": {
+        "title": "प्रदर्शन और रणनीति",
+        "capital_usage": "पूंजी का उपयोग",
+        "percent_used": "{{value}}% उपयोग किया गया",
+        "active_trades": "सक्रिय ट्रेड",
+        "active_trades_val": "{{count}} सक्रिय ट्रेड",
+        "win_rate": "जीत की दर",
+        "win_rate_val": "{{value}}% जीत की दर",
+        "strategies": {
+            "dca_advanced": "उन्नत DCA",
+            "risk_management": "जोखिम प्रबंधन",
+            "smart_tp": "स्मार्ट टेक प्रॉफिट",
+            "market_analysis": "बाजार विश्लेषण"
+        },
+        "status": {
+            "active": "सक्रिय",
+            "disabled": "अक्षम"
+        }
+    },
+    "open_positions": {
+        "title": "खुले स्थान",
+        "position": "स्थान",
+        "positions": "स्थान",
+        "no_positions": "कोई खुला स्थान नहीं",
+        "total_pnl": "कुल अवास्तविक PnL",
+        "best": "सबसे अच्छा स्थान",
+        "worst": "सबसे खराब स्थान",
+        "view_all": "सभी स्थान देखें"
+    },
+    "trading_feed": {
+        "title": "लाइव ट्रेडिंग फीड",
+        "live": "लाइव",
+        "no_activity": "कोई हालिया गतिविधि नहीं",
+        "new_trade": "नया ट्रेड",
+        "trade_closed": "ट्रेड बंद",
+        "position_closing": "स्थान बंद हो रहा है",
+        "position_updated": "स्थान अपडेट किया गया",
+        "trade_updated": "ट्रेड अपडेट किया गया",
+        "units": "इकाइयां"
+    },
+    "portfolio_chart": {
+        "title": "पोर्टफोलियो प्रदर्शन",
+        "net_profit": "शुद्ध लाभ",
+        "no_data": "प्रदर्शित करने के लिए कोई डेटा नहीं है",
+        "cumulative_profit": "संचयी लाभ",
+        "days": "दिन",
+        "day": "दिन",
+        "year": "साल"
+    },
+    "advanced_metrics": {
+        "title": "उन्नत मेट्रिक्स",
+        "show_advanced": "उन्नत दिखाएं",
+        "hide_advanced": "उन्नत छिपाएं",
+        "placeholder": "उन्नत मेट्रिक्स यहां प्रदर्शित होंगे"
+    },
+    "ai_risk": {
+        "title": "AI जोखिम अंतर्दृष्टि",
+        "low_risk": "कम जोखिम",
+        "medium_risk": "मध्यम जोखिम",
+        "high_risk": "उच्च जोखिम",
+        "analyzing": "जोखिम का विश्लेषण कर रहा है...",
+        "last_updated": "पिछली बार अपडेट किया गया",
+        "daily_loss": "दैनिक हानि",
+        "drawdown_limit": "ड्रॉडाउन सीमा",
+        "exposure": "एक्सपोजर",
+        "equity_percentage": "इक्विटी का {{value}}%",
+        "refresh_prompt": "जोखिम अंतर्दृष्टि प्राप्त करने के लिए ताज़ा करें पर क्लिक करें",
+        "error": "इस समय जोखिम अंतर्दृष्टि उत्पन्न करने में असमर्थ।"
+    },
+    "realtime": {
+        "connected": "जुड़ा हुआ ({{count}})",
+        "disconnected": "जुड़ा नहीं है"
+    }
+}

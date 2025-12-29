@@ -1,0 +1,15 @@
+{
+    "error_boundary": {
+        "title": "حدث خطأ غير متوقع",
+        "message": "نعتذر عن الإزعاج. تم تسجيل الخطأ وسيتم إصلاحه قريباً.",
+        "reload": "إعادة تحميل الصفحة"
+    },
+    "cache_monitor": {
+        "cache_items": "عناصر Cache: {{count}}",
+        "memory_usage": "استخدام الذاكرة: {{kb}} KB",
+        "keys": "المفاتيح:",
+        "more": "+{{count}} مزيد...",
+        "clear_all": "مسح الكل",
+        "cleanup": "تنظيف"
+    }
+}

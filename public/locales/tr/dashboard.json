@@ -1,0 +1,43 @@
+{
+    "title": "Kontrol Paneli",
+    "welcome": "Orbitra AI™'a Hoş Geldiniz",
+    "metrics": {
+        "total_equity": "Toplam Varlık",
+        "daily_pnl": "Günlük Kar/Zarar",
+        "unrealized_pnl": "Gerçekleşmemiş Kar/Zarar",
+        "exposure": "Risk Payı",
+        "no_data": "Portföy verisi bulunamadı",
+        "error": "Hata: {{error}}"
+    },
+    "bot_control": {
+        "title": "Bot Kontrolü",
+        "cannot_start": "Bot başlatılamıyor",
+        "check_settings": "Ayarları kontrol et",
+        "risk_updated": "Risk seviyesi güncellendi",
+        "risk_updated_desc": "Yeni risk seviyesi: %{{value}}",
+        "error_title": "Hata",
+        "risk_update_error": "Risk seviyesi güncellenirken hata oluştu",
+        "press_to_stop": "Botu durdurmak için tıkla",
+        "press_to_start": "Botu başlatmak için tıkla",
+        "strategy_label": "Strateji: {{name}} v{{version}}",
+        "view_all_trades": "Tüm İşlemleri Gör",
+        "advanced_settings": "Gelişmiş Ayarlar"
+    },
+    "performance": {
+        "title": "Performans ve Strateji",
+        "capital_usage": "Sermaye Kullanımı",
+        "percent_used": "%{{value}} kullanıldı",
+        "active_trades": "Aktif İşlemler",
+        "win_rate": "Başarı Oranı",
+        "strategies": {
+            "dca_advanced": "Gelişmiş DCA",
+            "risk_management": "Risk Yönetimi",
+            "smart_tp": "Akıllı Kar Al",
+            "market_analysis": "Piyasa Analizi"
+        },
+        "status": {
+            "active": "Aktif",
+            "disabled": "Devre Dışı"
+        }
+    }
+}

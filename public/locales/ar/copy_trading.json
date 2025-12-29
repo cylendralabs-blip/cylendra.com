@@ -1,0 +1,161 @@
+{
+    "onboarding": {
+        "step_progress": "الخطوة {{current}} من {{total}}",
+        "skip": "تخطي",
+        "previous": "السابق",
+        "next": "التالي",
+        "finish": "إنهاء",
+        "steps": {
+            "welcome": {
+                "title": "مرحباً بك في نسخ الصفقات",
+                "description": "تعلم كيفية استخدام نظام نسخ الصفقات",
+                "intro": "نظام نسخ الصفقات يسمح لك بنسخ صفقات المتداولين المحترفين تلقائياً.",
+                "follow_strategies": "متابعة الاستراتيجيات",
+                "follow_desc": "اختر استراتيجيات ناجحة واتبعها",
+                "auto_profit": "ربح تلقائي",
+                "auto_desc": "انسخ الصفقات تلقائياً"
+            },
+            "how_it_works": {
+                "title": "كيف يعمل النظام؟",
+                "description": "فهم آلية النسخ",
+                "step1_title": "اختر استراتيجية",
+                "step1_desc": "تصفح السوق واختر استراتيجية مناسبة لك",
+                "step2_title": "حدد الإعدادات",
+                "step2_desc": "حدد حجم التخصيص وحدود المخاطر",
+                "step3_title": "ابدأ النسخ",
+                "step3_desc": "سيتم نسخ جميع صفقات الماستر تلقائياً"
+            },
+            "risk_management": {
+                "title": "إدارة المخاطر",
+                "description": "تعلم كيفية حماية رأس مالك",
+                "intro": "يمكنك تحديد حدود المخاطر لحماية رأس مالك:",
+                "daily_loss": "حد الخسارة اليومية",
+                "daily_loss_desc": "توقف النسخ تلقائياً عند الوصول لهذا الحد",
+                "total_loss": "حد الخسارة الإجمالية",
+                "total_loss_desc": "الحد الأقصى للخسارة الإجمالية",
+                "max_leverage": "الحد الأقصى للرافعة المالية",
+                "max_leverage_desc": "تحكم في مستوى الرافعة المالية"
+            },
+            "allocation": {
+                "title": "تخصيص رأس المال",
+                "description": "كيفية توزيع رأس مالك",
+                "intro": "يمكنك تخصيص رأس مالك بطريقتين:",
+                "percent_badge": "نسبة مئوية",
+                "percent_title": "PERCENT",
+                "percent_desc": "حدد نسبة من رأس مالك (مثلاً 10%)",
+                "fixed_badge": "مبلغ ثابت",
+                "fixed_title": "FIXED",
+                "fixed_desc": "حدد مبلغاً ثابتاً (مثلاً $100)"
+            }
+        }
+    },
+    "my_strategies": {
+        "title": "استراتيجياتي",
+        "subtitle": "إدارة استراتيجيات نسخ الصفقات الخاصة بك",
+        "new_strategy": "استراتيجية جديدة",
+        "no_strategies": "لا توجد استراتيجيات حالياً",
+        "create_first": "إنشاء استراتيجية جديدة",
+        "badges": {
+            "public": "عام",
+            "active": "نشط",
+            "inactive": "غير نشط"
+        },
+        "stats": {
+            "followers": "{{count}} متابع",
+            "win_rate": "معدل النجاح: {{rate}}%"
+        },
+        "manage": "إدارة"
+    },
+    "traders_ranking": {
+        "title": "ترتيب المتداولين",
+        "subtitle": "أفضل المتداولين في المجتمع حسب الأداء والسمعة",
+        "filters": {
+            "title": "الفلاتر",
+            "rank": "الرتبة",
+            "all": "الكل",
+            "min_reputation": "الحد الأدنى للسمعة",
+            "min_win_rate": "الحد الأدنى لـ Win Rate",
+            "influencer_only": "المؤثرين فقط"
+        },
+        "table": {
+            "rank": "الترتيب",
+            "user": "المستخدم",
+            "level": "الرتبة",
+            "win_rate": "Win Rate",
+            "avg_return": "متوسط العائد",
+            "reputation": "السمعة",
+            "weight": "الوزن",
+            "lp_points": "LP Points",
+            "signals": "الإشارات",
+            "no_results": "لا توجد نتائج"
+        },
+        "copy_button": "نسخ الصفقات",
+        "view_profile": "عرض الملف الشخصي"
+    },
+    "my_copying": {
+        "title": "نسخي",
+        "subtitle": "مراقبة وإدارة المتداولين الذين تتابعهم",
+        "active_copies": "النسخ النشط",
+        "total_invested": "إجمالي المستثمر",
+        "total_profit": "إجمالي الربح والخسارة",
+        "no_copies": "أنت لا تقوم بنسخ أي متداول حالياً",
+        "explore_ranking": "استكشف تصنيف المتداولين"
+    },
+    "details": {
+        "back_to_market": "العودة للسوق",
+        "not_found": "الاستراتيجية غير موجودة",
+        "performance": {
+            "title": "مقاييس الأداء",
+            "win_rate": "Win Rate",
+            "return_30d": "عائد 30 يوم",
+            "return_7d": "عائد 7 أيام",
+            "max_drawdown": "أقصى تراجع"
+        },
+        "info": {
+            "title": "معلومات الاستراتيجية",
+            "type": "النوع: {{type}}",
+            "min_deposit": "الحد الأدنى للإيداع: ${{amount}}"
+        },
+        "follow": {
+            "title": "ابدأ النسخ",
+            "description": "ابدأ نسخ صفقات هذه الاستراتيجية",
+            "following": "تتابع هذه الاستراتيجية",
+            "manage": "إدارة المتابعة",
+            "start_now": "ابدأ النسخ الآن",
+            "following_loading": "جاري المتابعة...",
+            "success": {
+                "title": "تم بنجاح",
+                "message": "بدأت متابعة الاستراتيجية"
+            },
+            "error": {
+                "title": "خطأ",
+                "message": "فشل في متابعة الاستراتيجية"
+            }
+        }
+    },
+    "marketplace": {
+        "title": "سوق نسخ الصفقات",
+        "subtitle": "اكتشف واستكشف استراتيجيات نسخ الصفقات من المتداولين المحترفين",
+        "loading": "جاري التحميل...",
+        "no_strategies": "لا توجد استراتيجيات متاحة حالياً",
+        "no_description": "لا يوجد وصف",
+        "min_deposit": "الحد الأدنى: ${{amount}}",
+        "view_details": "عرض التفاصيل",
+        "feature_disabled": {
+            "title": "الميزة غير متاحة",
+            "description": "نظام نسخ الصفقات غير متاح حالياً",
+            "message": "تم تعطيل هذه الميزة مؤقتاً من قبل الإدارة. يرجى المحاولة لاحقاً."
+        },
+        "metrics": {
+            "win_rate": "Win Rate",
+            "return_30d": "30d Return",
+            "max_drawdown": "Max Drawdown",
+            "copiers": "Copiers"
+        },
+        "risk": {
+            "low": "LOW",
+            "medium": "MEDIUM",
+            "high": "HIGH"
+        }
+    }
+}

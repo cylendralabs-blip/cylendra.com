@@ -1,0 +1,43 @@
+{
+    "title": "Панель управления",
+    "welcome": "Добро пожаловать в Orbitra AI™",
+    "metrics": {
+        "total_equity": "Общий капитал",
+        "daily_pnl": "Дневной PnL",
+        "unrealized_pnl": "Нереализованный PnL",
+        "exposure": "Риск (Exposure)",
+        "no_data": "Данные портфеля отсутствуют",
+        "error": "Ошибка: {{error}}"
+    },
+    "bot_control": {
+        "title": "Управление ботом",
+        "cannot_start": "Не удалось запустить бота",
+        "check_settings": "Проверьте настройки",
+        "risk_updated": "Уровень риска обновлен",
+        "risk_updated_desc": "Новый уровень риска: {{value}}%",
+        "error_title": "Ошибка",
+        "risk_update_error": "Ошибка при обновлении уровня риска",
+        "press_to_stop": "Нажмите, чтобы остановить бота",
+        "press_to_start": "Нажмите, чтобы запустить бота",
+        "strategy_label": "Стратегия: {{name}} v{{version}}",
+        "view_all_trades": "Все сделки",
+        "advanced_settings": "Расширенные настройки"
+    },
+    "performance": {
+        "title": "Эффективность и стратегия",
+        "capital_usage": "Использование капитала",
+        "percent_used": "{{value}}% использовано",
+        "active_trades": "Активные сделки",
+        "win_rate": "Процент побед",
+        "strategies": {
+            "dca_advanced": "Продвинутый DCA",
+            "risk_management": "Управление рисками",
+            "smart_tp": "Умный Тейк-Профит",
+            "market_analysis": "Анализ рынка"
+        },
+        "status": {
+            "active": "Активен",
+            "disabled": "Отключен"
+        }
+    }
+}

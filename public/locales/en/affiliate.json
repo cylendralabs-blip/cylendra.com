@@ -1,0 +1,40 @@
+{
+    "title": "Affiliate System Dashboard",
+    "subtitle": "Manage your referrals and earnings",
+    "tier": "{{tier}} Tier",
+    "tiers": {
+        "bronze": "Bronze",
+        "silver": "Silver",
+        "gold": "Gold"
+    },
+    "register": {
+        "title": "Join the Referral System",
+        "description": "Join our referral program and start earning rewards",
+        "button": "Register as Referral Partner",
+        "success": "Affiliate account created successfully!",
+        "error": "Failed to create affiliate account"
+    },
+    "stats": {
+        "total_referrals": "Total Referrals",
+        "active": "{{count}} active",
+        "total_earnings": "Total Earnings",
+        "pending": "${{amount}} pending",
+        "loyalty_points": "Loyalty Points",
+        "cpu_units": "CPU Units",
+        "value": "${{amount}} value",
+        "influence_tokens": "Influence Tokens",
+        "pending_release": "pending release"
+    },
+    "tabs": {
+        "overview": "Overview",
+        "earnings": "Earnings",
+        "referrals": "Referrals",
+        "cpu": "CPU",
+        "tokens": "Tokens",
+        "missions": "Missions",
+        "leaderboard": "Leaderboard"
+    },
+    "errors": {
+        "load_failed": "Failed to load dashboard"
+    }
+}

@@ -1,0 +1,130 @@
+{
+    "hero": {
+        "badge": "Help Center",
+        "title": "Frequently Asked Questions",
+        "subtitle": "Find answers to common questions about Orbitra AI",
+        "search_placeholder": "Search for answers..."
+    },
+    "categories": {
+        "all": "All Topics",
+        "general": "General",
+        "bot": "Trading Bot",
+        "ai": "AI Technology",
+        "subscriptions": "Subscriptions",
+        "security": "Security"
+    },
+    "no_results": {
+        "title": "No results found",
+        "subtitle": "Try searching with different keywords or browse all topics"
+    },
+    "cta": {
+        "title": "Still Have Questions?",
+        "subtitle": "Our support team is here to help you 24/7",
+        "contact": "Contact Support",
+        "community": "Join Our Community"
+    },
+    "questions": {
+        "general": [
+            {
+                "question": "What is Orbitra AI?",
+                "answer": "Orbitra AI is an advanced cryptocurrency trading platform powered by artificial intelligence. It combines multiple AI models, technical analysis, and proven trading strategies to help traders make profitable decisions automatically."
+            },
+            {
+                "question": "Do I need trading experience to use Orbitra AI?",
+                "answer": "No! Orbitra AI is designed for both beginners and experienced traders. Our AI handles the complex analysis and decision-making, while you maintain full control over your settings and risk parameters."
+            },
+            {
+                "question": "Which exchanges are supported?",
+                "answer": "We currently support Binance, OKX, Bybit, and KuCoin. We're constantly working to add more exchanges based on user demand."
+            },
+            {
+                "question": "How do I get started?",
+                "answer": "Simply sign up for a free account, connect your exchange API keys (with read-only permissions to start), configure your risk settings, and activate the AI trading bot. You can start with our 14-day free trial on any plan."
+            }
+        ],
+        "bot": [
+            {
+                "question": "How does the trading bot work?",
+                "answer": "Our bot analyzes market data in real-time using AI models, technical indicators, and sentiment analysis. When high-probability trading opportunities are detected, the bot executes trades based on your predefined strategy and risk settings."
+            },
+            {
+                "question": "Can I customize the bot's trading strategy?",
+                "answer": "Yes! You can choose from multiple strategies (DCA, Grid Trading, Scalping, Trend Following) and customize parameters like risk level, take-profit targets, stop-loss percentages, and leverage settings."
+            },
+            {
+                "question": "Does the bot trade 24/7?",
+                "answer": "Yes, the bot monitors markets and executes trades 24/7 without requiring you to be online. You can pause or stop the bot anytime through your dashboard."
+            },
+            {
+                "question": "What's the minimum capital required?",
+                "answer": "We recommend starting with at least $100-$500 for Spot trading and $500-$1,000 for Futures trading. However, you can start with any amount—just keep in mind that smaller capital may limit your strategy options."
+            },
+            {
+                "question": "Can I use multiple strategies at once?",
+                "answer": "Yes! Pro and Enterprise plans allow you to run multiple strategies simultaneously across different trading pairs and exchanges."
+            }
+        ],
+        "ai": [
+            {
+                "question": "What AI models does Orbitra use?",
+                "answer": "We use an ensemble of AI models including LSTM neural networks for price prediction, Transformer models for market sentiment analysis, pattern recognition algorithms, and traditional technical analysis—all working together for optimal accuracy."
+            },
+            {
+                "question": "How accurate are the AI predictions?",
+                "answer": "Our AI ensemble achieves approximately 76% combined accuracy in backtesting. However, past performance doesn't guarantee future results. We continuously retrain and optimize our models based on new market data."
+            },
+            {
+                "question": "Does the AI learn and improve over time?",
+                "answer": "Yes! Our AI models are continuously retrained on new market data, adapting to changing market conditions and improving prediction accuracy over time."
+            },
+            {
+                "question": "Can I see how the AI makes decisions?",
+                "answer": "Absolutely! Our platform provides detailed signal explanations, showing which indicators and AI models contributed to each trading decision, along with confidence scores."
+            }
+        ],
+        "subscriptions": [
+            {
+                "question": "What's included in the free trial?",
+                "answer": "All paid plans include a 14-day free trial with full access to all features. No credit card required to start. You can cancel anytime during the trial without being charged."
+            },
+            {
+                "question": "Can I change my plan later?",
+                "answer": "Yes! You can upgrade or downgrade your subscription at any time. Upgrades take effect immediately with pro-rated billing, while downgrades take effect at the end of your current billing period."
+            },
+            {
+                "question": "What payment methods do you accept?",
+                "answer": "We accept major credit cards (Visa, MasterCard, American Express), PayPal, and cryptocurrency payments (BTC, ETH, USDT) for annual subscriptions."
+            },
+            {
+                "question": "Is there a refund policy?",
+                "answer": "Yes! We offer a 30-day money-back guarantee on all paid plans. If you're not satisfied, contact our support team for a full refund—no questions asked."
+            },
+            {
+                "question": "Do you charge per trade?",
+                "answer": "No! All plans include unlimited trades. You only pay the monthly/annual subscription fee—no hidden costs or per-trade fees."
+            }
+        ],
+        "security": [
+            {
+                "question": "How are my API keys stored?",
+                "answer": "Your API keys are encrypted using bank-level AES-256 encryption and stored in secure, isolated databases. We never store your exchange passwords, and our staff cannot access your API keys."
+            },
+            {
+                "question": "Can Orbitra withdraw my funds?",
+                "answer": "No! We only request API keys with trading permissions—never withdrawal permissions. Your funds remain 100% under your control on the exchange."
+            },
+            {
+                "question": "Is my personal data safe?",
+                "answer": "Yes. We're GDPR compliant, ISO 27001 certified, and SOC 2 Type II audited. We use end-to-end encryption, secure data centers, and never sell your data to third parties."
+            },
+            {
+                "question": "What happens if Orbitra gets hacked?",
+                "answer": "We employ multiple layers of security including DDoS protection, intrusion detection, regular security audits, and 24/7 monitoring. Additionally, since we don't have withdrawal permissions, your funds remain safe on the exchange."
+            },
+            {
+                "question": "Do you offer two-factor authentication (2FA)?",
+                "answer": "Yes! We strongly recommend enabling 2FA on your Orbitra account for an extra layer of security. We support authenticator apps and backup codes."
+            }
+        ]
+    }
+}

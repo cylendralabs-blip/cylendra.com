@@ -1,0 +1,459 @@
+{
+    "title": "Bot Settings",
+    "tabs": {
+        "general": "General",
+        "strategy": "Strategy",
+        "capital": "Capital",
+        "risk": "Risk",
+        "leverage": "Leverage",
+        "direction": "Direction",
+        "profit_taking": "Profit Taking",
+        "auto_trading": "Auto Trading",
+        "risk_presets": "Risk Presets",
+        "cleanup": "Cleanup",
+        "profit": "Profit"
+    },
+    "status": {
+        "active": "Active",
+        "stopped": "Stopped"
+    },
+    "actions": {
+        "save": "Save Settings",
+        "saving": "Saving..."
+    },
+    "loading": "Loading settings...",
+    "preparing": "Preparing form...",
+    "general": {
+        "title": "General Settings",
+        "subtitle": "Basic bot settings and operation status",
+        "bot_name": "Bot Name",
+        "bot_name_placeholder": "Enter bot name",
+        "default_platform": "Default Platform",
+        "select_platform": "Select Default Platform",
+        "no_api_keys": "No active API keys",
+        "platform_description": "This platform will appear as default in all pages and will affect capital calculations",
+        "selected_platform": "Selected Platform:",
+        "signal_source": "Signal Source",
+        "select_source": "Select Signal Source",
+        "source_description": "Determines the primary source of signals for the bot. Real-Time Stream: Live signals from WebSocket (faster for scalping) - requires PREMIUM.",
+        "realtime_ai_required": "AI Real-Time Stream is only available in the PREMIUM plan or higher.",
+        "bot_activation": "Bot Activation",
+        "bot_activation_desc": "Turn the bot on or off for automated trading",
+        "market_type": "Market Type",
+        "select_market": "Select Market Type",
+        "spot": "Spot Trading",
+        "futures": "Futures Trading",
+        "futures_required": "Futures trading is only available in the PREMIUM plan or higher.",
+        "entry_type": "Entry Type",
+        "select_entry": "Select Entry Type",
+        "market_order": "Market Order",
+        "limit_order": "Limit Order",
+        "entry_description": "Market: Immediate execution at best available price, Limit: Execution at a specific price",
+        "feature_locked": {
+            "title": "Automated Bots",
+            "description": "Automated trading is only available in the BASIC plan or higher. Please upgrade your plan to enjoy this feature."
+        },
+        "platforms": {
+            "binance_live": "Binance (Live)",
+            "binance_demo": "Binance Demo Trading",
+            "binance_spot_testnet": "Binance Spot Testnet",
+            "binance_futures_testnet": "Binance Futures Testnet (Old)",
+            "okx": "OKX (Live)",
+            "okx_demo": "OKX Demo",
+            "bybit_live": "Bybit (Live)",
+            "bybit_testnet": "Bybit Testnet",
+            "kucoin": "KuCoin",
+            "demo_suffix": "(Demo)"
+        }
+    },
+    "strategy": {
+        "title": "Strategy Selection",
+        "subtitle": "Choose one of your saved strategies",
+        "no_strategies": "No strategies available.",
+        "create_first": "Create a new strategy from the strategies page first.",
+        "bot_running": "Bot is running.",
+        "stop_first": "You must stop the bot first to change the strategy.",
+        "label": "Strategy",
+        "select_placeholder": "Select a strategy",
+        "no_available": "No strategies available",
+        "draft": "Draft",
+        "create_new": "Create new strategy",
+        "desc_running": "Stop the bot to change strategy",
+        "desc_select": "Choose the strategy the bot will use",
+        "open": "Open",
+        "type": "Type:",
+        "version": "Version:",
+        "unknown": "Unknown",
+        "new_version": "New version available!",
+        "version_available": "Version {{version}} is now available.",
+        "switch_latest": "Switch to latest",
+        "legacy_warning": "Legacy strategy!",
+        "legacy_desc": "Please choose a strategy from the new system.",
+        "debug_info": "Found {{count}} instances, {{active}} active"
+    },
+    "strategy_details": {
+        "title": "Strategy Selection",
+        "subtitle": "Choose the appropriate strategy for your trading style",
+        "type_label": "Strategy Type",
+        "select_placeholder": "Select strategy",
+        "types": {
+            "basic_dca": {
+                "name": "Basic DCA",
+                "description": "Basic DCA strategy without leverage - safest"
+            },
+            "dca_leverage_new": {
+                "name": "DCA + Leverage (New Center)",
+                "description": "DCA with opening a new leveraged position on price increase"
+            },
+            "dca_leverage_modify": {
+                "name": "DCA + Leverage (Modify Center)",
+                "description": "DCA with modifying leverage on existing open position"
+            }
+        },
+        "explanation_title": "Strategy Explanation",
+        "explanation": {
+            "basic_dca": "Basic DCA: Dividing the amount over multiple buy levels on drop, no leverage",
+            "dca_leverage_new": "DCA + Leverage (New Center): Open an additional leveraged position on increase, with DCA on drop",
+            "dca_leverage_modify": "DCA + Leverage (Modify Center): Modify leverage on the same position on increase"
+        },
+        "dca_levels_label": "DCA Levels",
+        "dca_levels_desc": "Number of Dollar Cost Averaging (DCA) levels per trade (1-10)",
+        "rr_ratio_label": "Risk to Reward Ratio (Risk:Reward)",
+        "rr_ratio_desc": "If risk is 1%, target will be {{value}}% (1:{{value}})"
+    },
+    "capital": {
+        "title": "Capital Settings",
+        "subtitle": "Define amounts and percentages allocated for trading (capital is fetched directly from the selected platform)",
+        "platform_info": {
+            "title": "Selected Platform Information",
+            "subtitle": "Details of capital available for trading on the selected platform",
+            "connected": "Connected",
+            "disconnected": "Disconnected",
+            "loading": "Loading",
+            "platform": "Platform",
+            "demo": "Demo",
+            "available_balance": "Available Balance for Trading",
+            "available_desc": "This is the amount actually available for trading from your wallet",
+            "update_auto": "Balance will be updated automatically when a platform is selected",
+            "total_defined": "Total Defined Capital",
+            "defined_desc": "Capital allocated for the bot from your settings",
+            "compatibility": {
+                "title": "Compatibility Status",
+                "compatible": "Compatible",
+                "loading": "Loading",
+                "incompatible": "Incompatible",
+                "not_fetched": "Balance not yet fetched or balance not available",
+                "too_high": "Defined capital is larger than the available balance",
+                "good": "Balance is compatible with the defined capital"
+            },
+            "usage": "Usage Percentage:",
+            "warning": {
+                "title": "Warning",
+                "message": "The defined capital ({{total_capital}} USDT) is larger than the available balance ({{available_balance}} USDT). Only the available balance will be used."
+            }
+        },
+        "display": {
+            "label": "Available Balance for Trading (USDT)",
+            "refresh": "Refresh",
+            "refreshing": "Refreshing...",
+            "fetching": "Fetching data from {{platform}} ({{market}})...",
+            "platform_short": "Platform",
+            "source": "Source:",
+            "wallet_type": "Wallet Type:",
+            "demo": "(Demo)",
+            "status": {
+                "fetching": "Connecting to {{platform}} and fetching latest data from {{market}} wallet...",
+                "fetched": "This amount was fetched directly from {{market}} wallet on {{platform}}",
+                "not_found": "No USDT balance found in {{market}} wallet on {{platform}}",
+                "no_data": "No balance data available for {{platform}}",
+                "update_auto": "Balance will be updated automatically when a platform is selected"
+            },
+            "warnings": {
+                "no_balance": "No USDT balance found in {{market}} wallet on {{platform}}. If you have balance in other wallet, try changing the market type.",
+                "check_balance": "Ensure you have USDT balance in {{market}} wallet on {{platform}}",
+                "okx_demo": "Demo account might be empty. Ensure you add demo funds in OKX Demo Trading."
+            },
+            "success": {
+                "verified": "Balance verified successfully from {{market}} wallet on {{platform}}",
+                "last_update": "Last update: {{time}}"
+            }
+        },
+        "form": {
+            "risk_percentage": "Risk Percentage per Trade (%)",
+            "risk_desc": "Percentage of capital that can be risked in each trade (1-3% recommended)",
+            "initial_percentage": "Initial Order Percentage (%)",
+            "initial_desc": "Percentage of trade amount used for initial entry (rest for DCA)",
+            "max_trades": "Max Active Trades",
+            "max_trades_desc": "Maximum number of open trades at the same time",
+            "placeholders": {
+                "risk": "Example: 2",
+                "initial": "Example: 25",
+                "max": "Example: 5"
+            }
+        },
+        "markets": {
+            "spot": "Spot",
+            "futures": "Futures"
+        }
+    },
+    "risk_presets": {
+        "title": "Risk Presets",
+        "subtitle": "Quick presets to configure your risk parameters. Customize individual settings after applying a preset.",
+        "active": "Active",
+        "applied": "Applied",
+        "apply": "Apply Preset",
+        "risk": "Risk:",
+        "leverage": "Leverage:",
+        "tp": "TP:",
+        "sl": "SL:",
+        "presets": {
+            "low": {
+                "name": "Low Risk",
+                "description": "Conservative approach with minimal risk per trade"
+            },
+            "medium": {
+                "name": "Medium Risk",
+                "description": "Balanced risk/reward ratio for steady growth"
+            },
+            "high": {
+                "name": "High Risk",
+                "description": "Aggressive strategy with higher risk tolerance"
+            }
+        }
+    },
+    "risk": {
+        "title": "Risk Management",
+        "subtitle": "Stop loss and risk control settings",
+        "risk_percentage": "Risk Percentage per Trade (%)",
+        "risk_tooltip": "Percentage of total capital at risk per trade. Recommended: 1-2% for conservative, 2-3% for moderate, 3-5% for aggressive.",
+        "risk_desc": "Maximum percentage of capital at risk in each trade (Recommended: 1%)",
+        "sl_method": "Stop Loss Calculation Method",
+        "sl_method_placeholder": "Select calculation method",
+        "initial_entry": "From Initial Entry Price (Fixed)",
+        "average_position": "From Average Position Price (Moves with DCA)",
+        "sl_method_desc_fixed": "Stop loss will be calculated from the initial entry price only and won't change with DCA",
+        "sl_method_desc_dynamic": "Stop loss will be recalculated with each DCA based on new average price",
+        "sl_percentage": "Stop Loss Percentage (%)",
+        "sl_desc_fixed": "Loss percentage from initial entry - remains fixed",
+        "sl_desc_dynamic": "Loss percentage from average position - updates with each DCA",
+        "fixed_method": "Fixed Method",
+        "dynamic_method": "Dynamic Method",
+        "fixed_example": "Example: Entry at $10, 5% SL = $9.5 (fixed even if DCA)",
+        "dynamic_example": "Example: Entry at $10, DCA at $8, Avg $9.33, new SL = $8.87",
+        "rr_ratio": "Risk to Reward Ratio (Risk:Reward)",
+        "rr_desc": "If risk is 1%, target will be {{value}}% (1:{{value}})"
+    },
+    "profit_taking": {
+        "title": "Profit Taking Strategy",
+        "subtitle": "Choose the appropriate method for taking profit from your trades",
+        "strategy_type": "Strategy Type",
+        "strategy_placeholder": "Select profit taking strategy",
+        "min_profit": "Minimum Profit Threshold (%)",
+        "min_profit_desc": "Minimum profit percentage required to trigger the profit taking strategy",
+        "strategies": {
+            "fixed": {
+                "name": "Fixed",
+                "short_desc": "Fixed profit strategy",
+                "description": "Take profit at a fixed percentage when the specified target is reached",
+                "badge": "Take full profit and close position when target reached"
+            },
+            "trailing": {
+                "name": "Trailing",
+                "short_desc": "Trailing strategy",
+                "description": "Follow the price to get maximum possible profit",
+                "badge": "Will follow price and close when it drops by specified distance"
+            },
+            "partial": {
+                "name": "Partial",
+                "short_desc": "Partial strategy",
+                "description": "Take profit in multiple stages to reduce risk",
+                "badge": "Will take profit in multiple stages"
+            },
+            "custom": {
+                "name": "Custom",
+                "short_desc": "Custom strategy",
+                "description": "Advanced custom settings based on your needs",
+                "badge": "You can customize all settings as per your needs"
+            }
+        },
+        "trailing": {
+            "title": "Trailing Stop Settings",
+            "subtitle": "Customize price tracking settings",
+            "activation": "Trailing Stop Activation (%)",
+            "activation_desc": "Profit percentage required to start the Trailing Stop",
+            "distance": "Trailing Stop Distance (%)",
+            "distance_desc": "Distance the Stop will follow from the highest price reached"
+        },
+        "partial": {
+            "title": "Partial Profit Taking Settings",
+            "subtitle": "Define levels and percentages for profit taking in stages",
+            "level": "Level {{number}}",
+            "profit_pct": "Profit Percentage (%)",
+            "close_pct": "Close Percentage (%)"
+        },
+        "advanced": {
+            "title": "Advanced Settings",
+            "subtitle": "Additional settings for capital protection and performance optimization",
+            "capital_protection": "Capital Protection",
+            "capital_protection_desc": "Enable capital protection when a certain profit is achieved",
+            "protection_profit": "Profit Percentage for Capital Protection (%)",
+            "protection_profit_desc": "When this profit percentage is reached, capital will be secured and Stop Loss moved to break-even",
+            "auto_reentry": "Auto Re-entry",
+            "auto_reentry_desc": "Re-open a new trade after closing a profitable trade",
+            "dynamic_tp": "Dynamic Take Profit",
+            "dynamic_tp_desc": "Adjust take profit percentages based on market analysis and volatility",
+            "active_badge": "Advanced settings are active - will work automatically based on defined conditions"
+        }
+    },
+    "leverage": {
+        "title": "Leverage Settings",
+        "subtitle": "Leverage settings for advanced strategies",
+        "strategy": "Leverage Strategy",
+        "strategy_placeholder": "Select leverage strategy",
+        "none": "None",
+        "manual": "Manual",
+        "auto": "Auto",
+        "strategy_desc": "How leverage is applied in the strategy",
+        "basic_leverage": "Base Leverage",
+        "basic_leverage_desc": "Base leverage for futures (1x - 125x)",
+        "auto_leverage": "Auto Leverage",
+        "auto_leverage_desc": "Automatically increase leverage on price increase",
+        "max_increase": "Max Leverage Increase (x)",
+        "max_increase_desc": "Maximum multiplier the leverage can increase to",
+        "safe_title": "Safe Strategy",
+        "safe_desc": "You are using the basic strategy without leverage, which is the safest for beginners.",
+        "warning_title": "Warning: Advanced Strategy",
+        "warning_desc": "You are using an advanced strategy with leverage. Ensure you understand the risks before activation.",
+        "leverage_label": "Leverage",
+        "leverage_desc": "Leverage for futures contracts (1x - 125x)"
+    },
+    "direction": {
+        "title": "Trading Direction Settings",
+        "subtitle": "Define allowed trading directions (Available only in futures)",
+        "default": "Default Trading Direction",
+        "default_placeholder": "Select default direction",
+        "long_label": "Long - Buy",
+        "short_label": "Short - Sell",
+        "both_label": "Both - Based on market",
+        "default_desc": "The direction the bot will use by default when opening new trades",
+        "allow_long": "Allow Long Trades",
+        "allow_long_desc": "Trade by buying (expecting price rise)",
+        "allow_short": "Allow Short Trades",
+        "allow_short_desc": "Trade by selling (expecting price drop)",
+        "warning_one_required": "Warning: At least one type of trading (Long or Short) must be allowed",
+        "info_title": "Important Information:",
+        "info_long": "Long: Buying the currency first then selling when price rises",
+        "info_short": "Short: Selling the currency first then buying when price drops",
+        "info_futures_only": "Short trades are only available in futures trading",
+        "info_market_analysis": "The bot can use both directions based on market analysis",
+        "spot_info": "Short and Long settings are only available in futures trading. In Spot trading, you can only buy then sell."
+    },
+    "auto_trading": {
+        "title": "Auto Trading from Signals",
+        "subtitle": "Configure automatic trade execution based on incoming signals",
+        "enable": "Enable Auto Trading from Signals",
+        "enable_desc": "When enabled, Orbitra AI will automatically execute trades based on incoming signals that match your filters.",
+        "active_alert_title": "Auto Trading is Active",
+        "active_alert_desc": "Your bot will automatically open trades based on signals. Make sure your risk limits are configured correctly.",
+        "mode_label": "Auto Trading Mode",
+        "mode_desc": "Full Auto: Execute trades automatically when signals pass filters",
+        "modes": {
+            "off": "Off",
+            "full_auto": "Full Auto (Execute automatically)",
+            "semi_auto": "Semi Auto (Require confirmation - Coming soon)"
+        },
+        "sources_label": "Allowed Signal Sources",
+        "sources": {
+            "ai_ultra": "AI Ultra Signals",
+            "ai_realtime": "AI Realtime Signals",
+            "tradingview": "TradingView Signals",
+            "legacy": "Legacy / Other"
+        },
+        "no_sources_warning": "⚠️ No signal sources selected. Auto trading will not execute any trades.",
+        "directions_label": "Allowed Trade Directions",
+        "allow_long": "Allow Long",
+        "allow_short": "Allow Short",
+        "risk_filters_title": "Risk Filters",
+        "min_confidence_label": "Minimum Signal Confidence (%)",
+        "min_confidence_desc": "Only execute trades from signals with confidence above this threshold",
+        "min_confidence_placeholder": "No minimum (optional)",
+        "max_trades_day_label": "Max Auto Trades Per Day",
+        "max_trades_day_desc": "Maximum number of auto trades per day (leave empty for unlimited)",
+        "max_trades_day_placeholder": "Unlimited (optional)",
+        "max_concurrent_label": "Max Concurrent Auto Positions",
+        "max_concurrent_desc": "Maximum number of concurrent open positions from auto trading",
+        "max_concurrent_placeholder": "Unlimited (optional)",
+        "how_it_works_title": "How Auto Trading Works",
+        "how_it_works_desc": "When auto trading is enabled, the bot will:",
+        "how_it_works_steps": {
+            "step1": "Monitor incoming signals from selected sources",
+            "step2": "Filter signals based on your confidence and direction settings",
+            "step3": "Respect daily and concurrent position limits",
+            "step4": "Execute trades automatically when all conditions are met"
+        },
+        "dialog": {
+            "title": "Enable Auto Trading?",
+            "description": "You are about to enable automatic trading from signals. This means your account will automatically open trades based on incoming signals that match your filters.",
+            "safety_title": "Important Safety Reminders",
+            "safety_steps": {
+                "step1": "Make sure your risk limits are configured correctly",
+                "step2": "Review your stop loss and take profit settings",
+                "step3": "Start with conservative limits (max trades per day, etc.)",
+                "step4": "Monitor your trades regularly"
+            },
+            "cancel": "Cancel",
+            "confirm": "I Understand, Enable Auto Trading"
+        }
+    },
+    "cleanup": {
+        "title": "Data Cleanup",
+        "subtitle": "Delete all trading and performance data to start a new bot test",
+        "delete_following": "The following data will be deleted:",
+        "data_list": {
+            "trades": "All trades (active and closed)",
+            "dca": "DCA orders",
+            "performance": "Historical performance data",
+            "portfolio": "Portfolio balances",
+            "notifications": "Notifications"
+        },
+        "warning": "Warning: This action cannot be undone. Ensure you want to delete all data before proceeding.",
+        "button": "Clear All Data",
+        "button_clearing": "Clearing data...",
+        "dialog": {
+            "title": "Are you sure?",
+            "description": "All trading and performance data will be permanently deleted. This action cannot be undone. Do you want to continue?",
+            "cancel": "Cancel",
+            "confirm": "Yes, Delete All Data"
+        },
+        "success": {
+            "title": "Data cleared successfully",
+            "description": "All trading and performance data have been deleted. You can now start a new test."
+        },
+        "error": {
+            "title": "Error clearing data",
+            "description": "An error occurred while deleting data. Please try again."
+        }
+    },
+    "preview": {
+        "title": "Trade Size Preview",
+        "subtitle": "Preview how your bot will size trades based on current settings",
+        "no_settings_title": "Enter valid settings to see trade size preview",
+        "no_settings_desc": "Preview unavailable. Please configure your bot settings first.",
+        "initial_order": "Initial Order",
+        "position_pct": "{{pct}}% of position",
+        "total_position": "Total Position",
+        "with_leverage": "with {{leverage}}x leverage",
+        "max_profit": "Max Profit (at TP)",
+        "tp_price": "TP: ${{price}}",
+        "max_loss": "Max Loss (at SL)",
+        "sl_price": "SL: ${{price}}",
+        "risk_metrics": "Risk Metrics",
+        "risk_label": "{{pct}}% Risk",
+        "available_balance": "Available Balance:",
+        "max_loss_amount": "Max Loss Amount:",
+        "dca_reserved": "DCA Reserved:",
+        "rr_ratio": "Risk/Reward:",
+        "note_title": "Note:",
+        "note_desc": "This preview is based on current settings and a sample price of ${{price}}. Actual trade sizes will vary based on market conditions and available balance at execution time."
+    }
+}

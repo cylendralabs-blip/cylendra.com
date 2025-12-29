@@ -1,0 +1,150 @@
+{
+    "title": "تحليل الأداء",
+    "subtitle": "تتبع وتحليل أداء التداول والاستراتيجيات",
+    "refresh": "تحديث",
+    "export": "تصدير",
+    "time_ranges": {
+        "1d": "اليوم",
+        "7d": "أسبوع",
+        "30d": "شهر",
+        "90d": "3 أشهر",
+        "1y": "سنة"
+    },
+    "stats": {
+        "total_profit": "إجمالي الأرباح",
+        "roi": "{{roi}}% عائد الاستثمار",
+        "no_data": "لا توجد بيانات",
+        "win_rate": "معدل النجاح",
+        "winning_trades": "{{winning}} صفقة رابحة من {{total}}",
+        "profit_factor": "عامل الربح",
+        "profit_factor_desc": "نسبة الأرباح إلى الخسائر",
+        "max_drawdown": "أقصى انخفاض",
+        "max_drawdown_desc": "أكبر انخفاض في المحفظة"
+    },
+    "tabs": {
+        "overview": {
+            "full": "نظرة عامة",
+            "short": "عامة"
+        },
+        "charts": {
+            "full": "الرسوم البيانية",
+            "short": "رسوم"
+        },
+        "analysis": {
+            "full": "تحليل الصفقات",
+            "short": "تحليل"
+        }
+    },
+    "overview": {
+        "trading_summary": {
+            "title": "ملخص التداول",
+            "subtitle": "إحصائيات التداول العامة",
+            "total_trades": "إجمالي الصفقات",
+            "winning_trades": "الصفقات الرابحة",
+            "losing_trades": "الصفقات الخاسرة",
+            "win_rate": "معدل النجاح"
+        },
+        "financial_performance": {
+            "title": "الأداء المالي",
+            "subtitle": "نتائج الأرباح والخسائر",
+            "total_profit": "إجمالي الأرباح",
+            "total_loss": "إجمالي الخسائر",
+            "net_profit": "صافي الربح",
+            "roi": "عائد الاستثمار"
+        },
+        "risk_analysis": {
+            "title": "تحليل المخاطر",
+            "subtitle": "مؤشرات المخاطر والأمان",
+            "risk_level": "مستوى المخاطر",
+            "max_drawdown": "أقصى انخفاض",
+            "profit_factor": "عامل الربح",
+            "average_win": "متوسط الربح",
+            "levels": {
+                "low": "منخفض",
+                "medium": "متوسط",
+                "high": "عالي"
+            }
+        },
+        "active_trades": {
+            "title": "الصفقات النشطة",
+            "subtitle": "حالة الصفقات الحالية",
+            "active_count": "عدد الصفقات النشطة",
+            "total_invested": "إجمالي الاستثمار",
+            "unrealized_pnl": "P&L غير المحقق",
+            "no_trades": "لا توجد صفقات نشطة حالياً"
+        }
+    },
+    "charts": {
+        "portfolio_growth": {
+            "title": "نمو المحفظة",
+            "subtitle": "تطور قيمة المحفظة عبر الزمن"
+        },
+        "daily_pl": {
+            "title": "الأرباح والخسائر اليومية",
+            "subtitle": "تفصيل الأرباح والخسائر",
+            "profit": "الأرباح",
+            "loss": "الخسائر"
+        },
+        "trade_distribution": {
+            "title": "توزيع الصفقات",
+            "subtitle": "نسبة الصفقات الرابحة والخاسرة",
+            "winning": "صفقات رابحة",
+            "losing": "صفقات خاسرة",
+            "win_rate": "معدل النجاح: {{rate}}%"
+        },
+        "monthly_performance": {
+            "title": "الأداء الشهري",
+            "subtitle": "الأرباح وعدد الصفقات شهرياً",
+            "profit": "الأرباح",
+            "trades": "عدد الصفقات"
+        }
+    },
+    "analysis": {
+        "metrics": {
+            "best_trade": "أفضل صفقة",
+            "worst_trade": "أسوأ صفقة",
+            "longest_trade": "أطول صفقة",
+            "win_rate": "معدل النجاح",
+            "not_available": "غير متوفر",
+            "hours_short": "{{h}} ساعة"
+        },
+        "sides": {
+            "buy": "شراء",
+            "sell": "بيع"
+        },
+        "duration": {
+            "undefined": "غير محدد",
+            "hours": "{{h}} ساعة"
+        },
+        "no_data": "لا توجد بيانات صفقات في الفترة المحددة",
+        "top_trades": {
+            "title": "أفضل الصفقات أداءً",
+            "subtitle": "الصفقات الأكثر ربحية في الفترة المحددة"
+        },
+        "worst_trades": {
+            "title": "الصفقات الأضعف أداءً",
+            "subtitle": "الصفقات التي تحتاج تحسين في الاستراتيجية"
+        },
+        "table": {
+            "symbol": "الرمز",
+            "side": "النوع",
+            "profit": "الربح",
+            "loss": "الخسارة",
+            "percentage": "النسبة",
+            "duration": "المدة",
+            "date": "التاريخ"
+        },
+        "summary": {
+            "title": "ملخص الأداء",
+            "subtitle": "نصائح وتوصيات لتحسين الأداء",
+            "strengths": "نقاط القوة",
+            "improvements": "نقاط التحسين",
+            "win_rate": "معدل نجاح: {{rate}}%",
+            "profit_factor": "عامل ربح: {{factor}}",
+            "total_trades": "إجمالي الصفقات: {{trades}}",
+            "reduce_avg_loss": "تقليل متوسط الخسائر: ${{loss}}",
+            "improve_entry": "تحسين توقيت الدخول",
+            "increase_diversification": "زيادة التنويع في المحفظة"
+        }
+    }
+}

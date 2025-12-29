@@ -1,0 +1,161 @@
+{
+    "onboarding": {
+        "step_progress": "Step {{current}} of {{total}}",
+        "skip": "Skip",
+        "previous": "Previous",
+        "next": "Next",
+        "finish": "Finish",
+        "steps": {
+            "welcome": {
+                "title": "Welcome to Copy Trading",
+                "description": "Learn how to use the copy trading system",
+                "intro": "The copy trading system allows you to automatically copy trades from professional traders.",
+                "follow_strategies": "Follow Strategies",
+                "follow_desc": "Choose successful strategies and follow them",
+                "auto_profit": "Automatic Profit",
+                "auto_desc": "Copy trades automatically"
+            },
+            "how_it_works": {
+                "title": "How Does It Work?",
+                "description": "Understanding the copying mechanism",
+                "step1_title": "Choose a Strategy",
+                "step1_desc": "Browse the market and choose a strategy that suits you",
+                "step2_title": "Set Settings",
+                "step2_desc": "Set allocation size and risk limits",
+                "step3_title": "Start Copying",
+                "step3_desc": "All master trades will be copied automatically"
+            },
+            "risk_management": {
+                "title": "Risk Management",
+                "description": "Learn how to protect your capital",
+                "intro": "You can set risk limits to protect your capital:",
+                "daily_loss": "Daily Loss Limit",
+                "daily_loss_desc": "Copying stops automatically when this limit is reached",
+                "total_loss": "Total Loss Limit",
+                "total_loss_desc": "Maximum total loss limit",
+                "max_leverage": "Maximum Leverage",
+                "max_leverage_desc": "Control leverage level"
+            },
+            "allocation": {
+                "title": "Capital Allocation",
+                "description": "How to distribute your capital",
+                "intro": "You can allocate your capital in two ways:",
+                "percent_badge": "Percentage",
+                "percent_title": "PERCENT",
+                "percent_desc": "Set a percentage of your capital (e.g. 10%)",
+                "fixed_badge": "Fixed Amount",
+                "fixed_title": "FIXED",
+                "fixed_desc": "Set a fixed amount (e.g. $100)"
+            }
+        }
+    },
+    "my_strategies": {
+        "title": "My Strategies",
+        "subtitle": "Manage your copy trading strategies",
+        "new_strategy": "New Strategy",
+        "no_strategies": "No strategies currently",
+        "create_first": "Create New Strategy",
+        "badges": {
+            "public": "Public",
+            "active": "Active",
+            "inactive": "Inactive"
+        },
+        "stats": {
+            "followers": "{{count}} followers",
+            "win_rate": "Win Rate: {{rate}}%"
+        },
+        "manage": "Manage"
+    },
+    "traders_ranking": {
+        "title": "Traders Ranking",
+        "subtitle": "Best community traders by performance and reputation",
+        "filters": {
+            "title": "Filters",
+            "rank": "Rank",
+            "all": "All",
+            "min_reputation": "Min Reputation",
+            "min_win_rate": "Min Win Rate",
+            "influencer_only": "Influencers Only"
+        },
+        "table": {
+            "rank": "Rank",
+            "user": "User",
+            "level": "Level",
+            "win_rate": "Win Rate",
+            "avg_return": "Avg Return",
+            "reputation": "Reputation",
+            "weight": "Weight",
+            "lp_points": "LP Points",
+            "signals": "Signals",
+            "no_results": "No results found"
+        },
+        "copy_button": "Copy Trade",
+        "view_profile": "View Profile"
+    },
+    "my_copying": {
+        "title": "My Copying",
+        "subtitle": "Monitor and manage the traders you are following",
+        "active_copies": "Active Copies",
+        "total_invested": "Total Invested",
+        "total_profit": "Total P&L",
+        "no_copies": "You are not copying any traders yet",
+        "explore_ranking": "Explore Traders Ranking"
+    },
+    "details": {
+        "back_to_market": "Back to Market",
+        "not_found": "Strategy not found",
+        "performance": {
+            "title": "Performance Metrics",
+            "win_rate": "Win Rate",
+            "return_30d": "30d Return",
+            "return_7d": "7d Return",
+            "max_drawdown": "Max Drawdown"
+        },
+        "info": {
+            "title": "Strategy Information",
+            "type": "Type: {{type}}",
+            "min_deposit": "Min Deposit: ${{amount}}"
+        },
+        "follow": {
+            "title": "Start Copying",
+            "description": "Start copying trades from this strategy",
+            "following": "Following this strategy",
+            "manage": "Manage Following",
+            "start_now": "Start Copying Now",
+            "following_loading": "Following...",
+            "success": {
+                "title": "Success",
+                "message": "Started following strategy"
+            },
+            "error": {
+                "title": "Error",
+                "message": "Failed to follow strategy"
+            }
+        }
+    },
+    "marketplace": {
+        "title": "Copy Trading Marketplace",
+        "subtitle": "Discover and explore copy trading strategies from professional traders",
+        "loading": "Loading...",
+        "no_strategies": "No strategies available currently",
+        "no_description": "No description",
+        "min_deposit": "Min: ${{amount}}",
+        "view_details": "View Details",
+        "feature_disabled": {
+            "title": "Feature Unavailable",
+            "description": "Copy trading system is currently unavailable",
+            "message": "This feature has been temporarily disabled by administration. Please try again later."
+        },
+        "metrics": {
+            "win_rate": "Win Rate",
+            "return_30d": "30d Return",
+            "max_drawdown": "Max Drawdown",
+            "copiers": "Copiers"
+        },
+        "risk": {
+            "low": "LOW",
+            "medium": "MEDIUM",
+            "high": "HIGH"
+        }
+    }
+}

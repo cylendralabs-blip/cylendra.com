@@ -1,0 +1,53 @@
+{
+    "nav": {
+        "home": "Início",
+        "strategies": "Estratégias",
+        "exchanges": "Corretoras",
+        "pricing": "Preços",
+        "about": "Sobre",
+        "contact": "Contato",
+        "dashboard": "Painel",
+        "go_to_dashboard": "Ir para o Painel",
+        "sign_in": "Entrar",
+        "get_started": "Começar"
+    },
+    "hero": {
+        "badge": "Inteligência de Mercado com IA",
+        "title_part1": "Negocie com mais inteligência com",
+        "title_part2": "IA de última geração",
+        "description": "A plataforma de negociação baseada em IA mais avançada. Redes neurais, bots automatizados e sinais em tempo real para maximizar seus lucros em cripto.",
+        "start_trading": "Começar a negociar agora",
+        "view_demo": "Ver Demonstração"
+    },
+    "pricing": {
+        "title": "Escolha o plano certo para você",
+        "subtitle": "Planos flexíveis que se adaptam a todas as necessidades",
+        "loading": "Carregando planos...",
+        "beta_title": "Você está no modo Beta:",
+        "beta_desc": "Todos os planos estão disponíveis gratuitamente para teste. Não é necessário cartão ou pagamento agora.",
+        "beta_ends": "O acesso Beta termina em",
+        "beta_remaining": "{{count}} dias restantes",
+        "beta_after": "Depois disso, os planos pagos se tornarão ativos.",
+        "current_plan": "Seu plano atual",
+        "current_badge": "Atual",
+        "month": "mês",
+        "features": {
+            "signals": "Sinais AI Ultra",
+            "live": "Live Center",
+            "auto": "Negociação Automática",
+            "futures": "Negociação de Futuros",
+            "telegram": "Sinais Telegram AI",
+            "max_bots": "Máximo de Bots"
+        },
+        "limits": {
+            "signals": "Sinais/dia",
+            "ai_calls": "Chamadas IA/dia"
+        },
+        "buttons": {
+            "subscribe": "Assinar Agora",
+            "current": "Plano Atual",
+            "select": "Selecionar"
+        },
+        "footer": "Todos os planos incluem suporte técnico e garantia de reembolso de 30 dias"
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "title": "Panel de Control",
+    "welcome": "Bienvenido a Orbitra AI™",
+    "metrics": {
+        "total_equity": "Capital Total",
+        "daily_pnl": "PnL Diario",
+        "unrealized_pnl": "PnL No Realizado",
+        "exposure": "Exposición",
+        "no_data": "No hay datos de cartera disponibles",
+        "error": "Error: {{error}}"
+    },
+    "bot_control": {
+        "title": "Control del Bot",
+        "cannot_start": "No se puede iniciar el bot",
+        "check_settings": "Verificar configuración",
+        "risk_updated": "Nivel de riesgo actualizado",
+        "risk_updated_desc": "Nuevo nivel de riesgo: {{value}}%",
+        "error_title": "Error",
+        "risk_update_error": "Error al actualizar el nivel de riesgo",
+        "press_to_stop": "Presione para detener el bot",
+        "press_to_start": "Presione para iniciar el bot",
+        "strategy_label": "Estrategia: {{name}} v{{version}}",
+        "view_all_trades": "Ver Todas las Operaciones",
+        "advanced_settings": "Configuración Avanzada"
+    },
+    "performance": {
+        "title": "Rendimiento y Estrategia",
+        "capital_usage": "Uso de Capital",
+        "percent_used": "{{value}}% usado",
+        "active_trades": "Operaciones Activas",
+        "win_rate": "Tasa de Éxito",
+        "strategies": {
+            "dca_advanced": "DCA Avanzado",
+            "risk_management": "Gestión de Riesgos",
+            "smart_tp": "Take Profit Inteligente",
+            "market_analysis": "Análisis de Mercado"
+        },
+        "status": {
+            "active": "Activo",
+            "disabled": "Desactivado"
+        }
+    }
+}

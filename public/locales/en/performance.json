@@ -1,0 +1,150 @@
+{
+    "title": "Performance Analysis",
+    "subtitle": "Track and analyze trading performance and strategies",
+    "refresh": "Refresh",
+    "export": "Export",
+    "time_ranges": {
+        "1d": "Today",
+        "7d": "Week",
+        "30d": "Month",
+        "90d": "3 Months",
+        "1y": "Year"
+    },
+    "stats": {
+        "total_profit": "Total Profit",
+        "roi": "{{roi}}% ROI",
+        "no_data": "No data",
+        "win_rate": "Win Rate",
+        "winning_trades": "{{winning}} winning trades out of {{total}}",
+        "profit_factor": "Profit Factor",
+        "profit_factor_desc": "Profit to loss ratio",
+        "max_drawdown": "Max Drawdown",
+        "max_drawdown_desc": "Largest portfolio decline"
+    },
+    "tabs": {
+        "overview": {
+            "full": "Overview",
+            "short": "Overview"
+        },
+        "charts": {
+            "full": "Charts",
+            "short": "Charts"
+        },
+        "analysis": {
+            "full": "Trade Analysis",
+            "short": "Analysis"
+        }
+    },
+    "overview": {
+        "trading_summary": {
+            "title": "Trading Summary",
+            "subtitle": "General trading statistics",
+            "total_trades": "Total Trades",
+            "winning_trades": "Winning Trades",
+            "losing_trades": "Losing Trades",
+            "win_rate": "Win Rate"
+        },
+        "financial_performance": {
+            "title": "Financial Performance",
+            "subtitle": "Profit and loss results",
+            "total_profit": "Total Profit",
+            "total_loss": "Total Loss",
+            "net_profit": "Net Profit",
+            "roi": "ROI"
+        },
+        "risk_analysis": {
+            "title": "Risk Analysis",
+            "subtitle": "Risk and safety indicators",
+            "risk_level": "Risk Level",
+            "max_drawdown": "Max Drawdown",
+            "profit_factor": "Profit Factor",
+            "average_win": "Average Win",
+            "levels": {
+                "low": "Low",
+                "medium": "Medium",
+                "high": "High"
+            }
+        },
+        "active_trades": {
+            "title": "Active Trades",
+            "subtitle": "Current trades status",
+            "active_count": "Active Trades Count",
+            "total_invested": "Total Invested",
+            "unrealized_pnl": "Unrealized P&L",
+            "no_trades": "No active trades currently"
+        }
+    },
+    "charts": {
+        "portfolio_growth": {
+            "title": "Portfolio Growth",
+            "subtitle": "Portfolio value evolution over time"
+        },
+        "daily_pl": {
+            "title": "Daily Profit/Loss",
+            "subtitle": "Detailed profit and loss breakdown",
+            "profit": "Profit",
+            "loss": "Loss"
+        },
+        "trade_distribution": {
+            "title": "Trade Distribution",
+            "subtitle": "Winning vs losing trades percentage",
+            "winning": "Winning Trades",
+            "losing": "Losing Trades",
+            "win_rate": "Win Rate: {{rate}}%"
+        },
+        "monthly_performance": {
+            "title": "Monthly Performance",
+            "subtitle": "Monthly profits and trade count",
+            "profit": "Profit",
+            "trades": "Trade Count"
+        }
+    },
+    "analysis": {
+        "metrics": {
+            "best_trade": "Best Trade",
+            "worst_trade": "Worst Trade",
+            "longest_trade": "Longest Trade",
+            "win_rate": "Win Rate",
+            "not_available": "N/A",
+            "hours_short": "{{h}}h"
+        },
+        "sides": {
+            "buy": "Buy",
+            "sell": "Sell"
+        },
+        "duration": {
+            "undefined": "Undefined",
+            "hours": "{{h}}h"
+        },
+        "no_data": "No trade data in the specified period",
+        "top_trades": {
+            "title": "Top Performing Trades",
+            "subtitle": "Most profitable trades in the selected period"
+        },
+        "worst_trades": {
+            "title": "Worst Performing Trades",
+            "subtitle": "Trades that need strategy improvement"
+        },
+        "table": {
+            "symbol": "Symbol",
+            "side": "Side",
+            "profit": "Profit",
+            "loss": "Loss",
+            "percentage": "Percentage",
+            "duration": "Duration",
+            "date": "Date"
+        },
+        "summary": {
+            "title": "Performance Summary",
+            "subtitle": "Tips and recommendations to improve performance",
+            "strengths": "Strengths",
+            "improvements": "Improvements",
+            "win_rate": "Win Rate: {{rate}}%",
+            "profit_factor": "Profit Factor: {{factor}}",
+            "total_trades": "Total Trades: {{trades}}",
+            "reduce_avg_loss": "Reduce average loss: ${{loss}}",
+            "improve_entry": "Improve entry timing",
+            "increase_diversification": "Increase portfolio diversification"
+        }
+    }
+}

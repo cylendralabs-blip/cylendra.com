@@ -1,9 +1,9 @@
 [build]
-  command = "npm ci && npm run build"
+  command = "pnpm install && pnpm run build"
   publish = "dist"
 
 [build.environment]
-  NODE_VERSION = "18"
+  NODE_VERSION = "20.19.0"
   NPM_VERSION = "9"
 
 # Redirect all requests to index.html for SPA routing
@@ -41,17 +41,17 @@
 
 # Production build settings
 [context.production]
-  command = "npm ci && npm run build"
+  command = "pnpm install && pnpm run build"
   publish = "dist"
 
 # Deploy preview settings (Pull Requests)
 [context.deploy-preview]
-  command = "npm ci && npm run build"
+  command = "pnpm install && pnpm run build"
   publish = "dist"
 
 # Branch deploy settings
 [context.branch-deploy]
-  command = "npm ci && npm run build"
+  command = "pnpm install && pnpm run build"
   publish = "dist"
 
 # Plugin configuration (optional)

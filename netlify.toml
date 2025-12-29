@@ -1,6 +1,6 @@
 [build]
   command = "pnpm install && pnpm run build"
-  publish = "dist"
+  publish = "dist/public"
 
 [build.environment]
   NODE_VERSION = "20.19.0"
@@ -42,17 +42,17 @@
 # Production build settings
 [context.production]
   command = "pnpm install && pnpm run build"
-  publish = "dist"
+  publish = "dist/public"
 
 # Deploy preview settings (Pull Requests)
 [context.deploy-preview]
   command = "pnpm install && pnpm run build"
-  publish = "dist"
+  publish = "dist/public"
 
 # Branch deploy settings
 [context.branch-deploy]
   command = "pnpm install && pnpm run build"
-  publish = "dist"
+  publish = "dist/public"
 
 # Plugin configuration (optional)
 # [[plugins]]

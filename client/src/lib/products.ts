@@ -60,7 +60,7 @@ export const products: Product[] = [
   },
   {
     id: "orbitra-ai",
-    name: "Orbitra AI",
+    name: "Orbitra AI By Cylendra",
     slug: "orbitra-ai",
     oneLiner: "Smart portfolio analysis across exchanges.",
     description: "Track performance, exposure, and risk with clear, explainable analytics—per exchange or combined.",
@@ -99,13 +99,13 @@ export const products: Product[] = [
   },
   {
     id: "cylendra-alerts",
-    name: "Cylendra Alerts",
+    name: "Crypto Pulse By Cylendra",
     slug: "cylendra-alerts",
     oneLiner: "Telegram alerts that respect your strategy.",
     description: "Real-time crypto signals with structured context, filtering, and configurable alerting.",
     status: "LIVE",
     icon: Bell,
-    externalLink: "https://t.me/OrbitraAlertsBot",
+    externalLink: "https://t.me/CylendraPulseBot",
     valueProp: "Telegram alerts with context, filtering, and configurable delivery.",
     features: [
       "Real-time market signals",

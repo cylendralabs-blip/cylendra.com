@@ -8,6 +8,8 @@ import Layout from "./components/Layout";
 import Home from "./pages/Home";
 import Products from "./pages/Products";
 import ProductDetail from "./pages/ProductDetail";
+import Events from "./pages/Events";
+import EventDetail from "./pages/EventDetail";
 import Company from "./pages/Company";
 import Privacy from "./pages/legal/Privacy";
 import Terms from "./pages/legal/Terms";
@@ -21,6 +23,8 @@ function Router() {
         <Route path="/" component={Home} />
         <Route path="/products" component={Products} />
         <Route path="/products/:slug" component={ProductDetail} />
+        <Route path="/events" component={Events} />
+        <Route path="/events/:slug" component={EventDetail} />
         <Route path="/company" component={Company} />
         <Route path="/legal/privacy" component={Privacy} />
         <Route path="/legal/terms" component={Terms} />

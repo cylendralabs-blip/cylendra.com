@@ -322,8 +322,8 @@ const FeatureBlock = ({ product, index }: { product: any, index: number }) => {
             
             <h2 className="text-4xl md:text-5xl font-bold tracking-tight">
               {product.name === "Cylendra Portal" && "Your Trading Command Center"}
-              {product.name === "Orbitra AI" && "Smart Portfolio Analysis"}
-              {product.name === "Cylendra Alerts" && "Alerts That Respect Strategy"}
+              {product.name === "Orbitra AI By Cylendra" && "Smart Portfolio Analysis"}
+              {product.name === "Crypto Pulse By Cylendra" && "Alerts That Respect Strategy"}
               {product.name === "Cyle Learn Bot" && "Learn Trading Like a System"}
               {product.name === "Cylendra Calculator" && "Trading Math, Made Effortless"}
               {product.name === "Cylendra Hedge Fund" && "A Managed Strategy Layer"}
@@ -339,8 +339,8 @@ const FeatureBlock = ({ product, index }: { product: any, index: number }) => {
               <p className="text-lg font-medium text-muted-foreground italic">
                 "Still {
                   product.name === "Cylendra Portal" ? "switching between tools?" :
-                  product.name === "Orbitra AI" ? "guessing what's happening?" :
-                  product.name === "Cylendra Alerts" ? "missing entries?" :
+                  product.name === "Orbitra AI By Cylendra" ? "guessing what's happening?" :
+                  product.name === "Crypto Pulse By Cylendra" ? "missing entries?" :
                   product.name === "Cyle Learn Bot" ? "learning without a path?" :
                   product.name === "Cylendra Calculator" ? "calculating manually?" :
                   "waiting for the next step?"
@@ -349,8 +349,8 @@ const FeatureBlock = ({ product, index }: { product: any, index: number }) => {
               <p className="text-lg font-bold text-primary">
                 {
                   product.name === "Cylendra Portal" ? "Cylendra brings it all into one lab." :
-                  product.name === "Orbitra AI" ? "Orbitra turns raw data into clarity." :
-                  product.name === "Cylendra Alerts" ? "Cylendra pings you instantly." :
+                  product.name === "Orbitra AI By Cylendra" ? "Orbitra turns raw data into clarity." :
+                  product.name === "Crypto Pulse By Cylendra" ? "Cylendra pings you instantly." :
                   product.name === "Cyle Learn Bot" ? "Cyle Learn helps you progress step by step." :
                   product.name === "Cylendra Calculator" ? "Cylendra Calculator does it right." :
                   "Cylendra is building the future."

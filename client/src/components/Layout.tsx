@@ -4,11 +4,13 @@ import { cn } from "@/lib/utils";
 import { Menu, X, ChevronDown } from "lucide-react";
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import { useTheme } from "@/contexts/ThemeContext";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [location] = useLocation();
+  const { theme } = useTheme();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -25,8 +27,11 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 
   const navLinks = [
     { name: "Products", href: "/products" },
+    { name: "Events", href: "/events" },
     { name: "Company", href: "/company" },
   ];
+
+  const logoSrc = theme === "dark" ? "/logo-dark.png" : "/logo-light.png";
 
   return (
     <div className="min-h-screen flex flex-col bg-background text-foreground overflow-x-hidden selection:bg-primary/30 selection:text-primary-foreground">
@@ -40,11 +45,12 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         <div className="container flex items-center justify-between">
           {/* Logo */}
           <Link href="/">
-            <a className="flex items-center gap-2 group">
-              <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-[#E6B355] to-[#F2D088] flex items-center justify-center text-black font-bold text-lg shadow-[0_0_15px_rgba(230,179,85,0.3)] group-hover:shadow-[0_0_25px_rgba(230,179,85,0.5)] transition-all duration-300">
-                C
-              </div>
-              <span className="font-bold text-xl tracking-tight">Cylendra Labs</span>
+            <a className="flex items-center gap-3 group">
+              <img 
+                src={logoSrc} 
+                alt="Cylendra Labs Logo" 
+                className="h-8 w-auto transition-transform duration-300 group-hover:scale-110"
+              />
             </a>
           </Link>
 
@@ -141,11 +147,12 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-16">
             {/* Brand Column */}
             <div className="flex flex-col gap-4">
-              <div className="flex items-center gap-2">
-                <div className="w-6 h-6 rounded bg-gradient-to-br from-[#E6B355] to-[#F2D088] flex items-center justify-center text-black font-bold text-xs">
-                  C
-                </div>
-                <span className="font-bold text-lg">Cylendra Labs</span>
+              <div className="flex items-center gap-3">
+                <img 
+                  src={logoSrc} 
+                  alt="Cylendra Labs Logo" 
+                  className="h-6 w-auto"
+                />
               </div>
               <p className="text-muted-foreground text-sm leading-relaxed">
                 AI-Powered Trading & Market Intelligence Ecosystem. An interconnected suite of tools for the modern trader.
